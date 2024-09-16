@@ -22,16 +22,14 @@ const FormArea = () => {
     setStatus("Sending...");
 
     try {
-      const response = await fetch(
-        "https://prowebcoder.com/email/send-mail.php",
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify(formData),
-        }
-      );
+      console.log("Sending...");
+      const response = await fetch("/api/sendEmail", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
 
       if (response.ok) {
         setStatus("Message sent successfully!");
