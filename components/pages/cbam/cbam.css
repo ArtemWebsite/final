@@ -1,0 +1,55 @@
+section.why-cbam {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: space-between;
+    flex-direction: column;
+    width: 100%;
+}
+
+section.climate-changes .outerwrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.overlay-data-overImage {
+    position: absolute;
+}
+
+/* styles/artem-section.css */
+.artem-section {
+  background-color: var(--primary-color-1);
+}
+  
+  .artem-title {
+    font-size: 2.5rem;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .artem-description {
+    font-size: 1.25rem;
+    color: #ffffff;
+    line-height: 1.5;
+  }
+  
+  .artem-description a {
+    color: #004080;
+    text-decoration: underline;
+  }
+  
+  .artem-perspective {
+    border: 1px solid #ffffff;
+    padding: 15px;
+    margin-top: 20px;
+  }
+  
+  .artem-perspective p {
+    color: #ffffff;
+    margin: 0;
+    font-size: 1rem;
+  }
+  

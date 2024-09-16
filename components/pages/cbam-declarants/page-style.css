@@ -1,0 +1,103 @@
+.cbam_banner_area {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.cbam__banner_text h2 {
+  color: #233041;
+}
+.cbam-importer-main {
+}
+.cbam_img_with_text {
+  background: var(--bg-white);
+  background-position: center;
+}
+.header__area-menubar-left.one::after {
+  top: 0px;
+
+  height: 87px;
+}
+.cbam_img_with_text-right img {
+  border: 20px solid #fff;
+  border-radius: 50px;
+}
+.equalHeight {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+}
+.cbam_img_with_text-left h5 {
+  color: #233041;
+}
+.cbam_three_tab {
+  background-color: var(--primary-color-3);
+}
+.cbam_advantage-sec {
+  background-color: var(--primary-color-3);
+}
+.service-cols {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  height: 260px;
+}
+.cbam_three_tab .cbam__banner_text {
+  height: 190px;
+  display: flex;
+  align-items: center;
+}
+.custom-font-lead {
+  font-size: 2.3rem;
+  line-height: 1.2;
+}
+@media screen and (max-width: 768px) {
+  .cbam_img_with_text-left h2 {
+    font-size: 2rem;
+    margin-bottom: 0 !important;
+  }
+  .cbam_img_with_text-right.t-right.dark_image.position-absolute {
+    position: relative !important;
+    bottom: 0 !important;
+    margin: 0 auto !important;
+    text-align: center !important;
+    padding: 0 !important;
+  }
+  .cbam_img_with_text .mb-80,
+  .cbam_img_with_text .mt-100 {
+    margin: 20px !important;
+  }
+  .cbam_img_with_text.pb-80,
+  .cbam_img_with_text.pb-100 {
+    padding: 40px 15px !important;
+  }
+  .header__area-menubar-left.one::after {
+    height: 52px;
+  }
+  .cbam_banner_area {
+    padding: 4rem 30px;
+  }
+  .cbam_three_tab .row {
+    gap: 25px;
+  }
+  .cbam_service.service__one .service__one-item {
+    height: auto !important;
+    min-height: auto !important;
+    padding: 30px !important;
+  }
+  .cbam_service.service__one {
+    padding: 50px 20px;
+  }
+  .cbam_service .service__one-item-content h6 {
+    margin-bottom: 8px;
+    transition: 0.4s;
+    font-size: 1.2rem;
+  }
+  .cbam_advantage-sec .sieze-line h2 {
+    font-size: 2.3rem;
+  }
+}
+.color-green-cbam {
+color: #74D5C2;
+}
