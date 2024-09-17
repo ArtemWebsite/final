@@ -3,7 +3,7 @@ const nextConfig = {
   env: {
     EMAIL_USER: "rahul@prowebcoder.com",
     EMAIL_PASS: "bvfs qosd rxfm uajj",
-    EMAIL_TO: "website@artem.earth",
+    EMAIL_TO: "leo@artem.earth",
   },
 };
 
