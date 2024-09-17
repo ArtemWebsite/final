@@ -25,7 +25,6 @@ const CbamDeclarantsMain = () => {
         style={{ backgroundImage: `url(${cbamBg.src})` }}
       >
         <div className="container">
-          <div className="row al-center">
             <div className="row align-items-center">
               <div className="col-lg-6">
                 <div className="cbam_img_with_text-left">
@@ -38,19 +37,19 @@ const CbamDeclarantsMain = () => {
                   </div>
                 </div>
                 <div className="t-left mt-60">
-                  <div className="dflex bg-light-green-artm mt-3 mb-4 p-4 display-7">
+                  <div className="dflex bg-light-green-artm mt-3 mb-4 p-2 p-md-3 display-7">
                     <img className="icon-small" src={cbamArrow.src} />
                     Fulfill your CBAM{" "}
                     <span className="color-green-artm">Obligations</span>
                   </div>
-                  <div className="dflex bg-light-green-artm mt-3 mb-4 p-4 display-7">
+                  <div className="dflex bg-light-green-artm mt-3 mb-4 p-2 p-md-3 display-7">
                     <img className="icon-small" src={cbamArrow.src} />
                     Offer Your <span className="color-green-artm">
                       Clients
                     </span>{" "}
                     A New CBAM service
                   </div>
-                  <div className="dflex bg-light-green-artm mt-3 mb-4 p-4 display-7">
+                  <div className="dflex bg-light-green-artm mt-3 mb-4 p-2 p-md-3 display-7">
                     <img className="icon-small" src={cbamArrow.src} />
                     Verify Your{" "}
                     <span className="color-green-artm">Emissions</span> Data
@@ -63,7 +62,6 @@ const CbamDeclarantsMain = () => {
                 </div>
               </div>
             </div>
-          </div>
         </div>
       </div>
 
@@ -72,7 +70,7 @@ const CbamDeclarantsMain = () => {
           <div className="row al-center">
             <div className="col-xl-12">
               <div className="cbam__banner_text mb-5">
-                <h2 className="mb-5 text-center">
+                <h2 className="mb-md-5 text-center">
                   What is
                   <span className="color-green-artm"> CBAM </span> ?
                 </h2>
@@ -337,7 +335,7 @@ const CbamDeclarantsMain = () => {
             <div className="col-xl-12">
               <div className="service__one-title t-center">
                 <span className="subtitle-one">&nbsp;</span>
-                <h2 className="mb-5 text-center">
+                <h2 className="mb-md-5 text-center">
                   <span className="color-green-artm"> Key </span>{" "}
                   Functionalities
                 </h2>
@@ -355,7 +353,7 @@ const CbamDeclarantsMain = () => {
       <div
         className={`${
           id === 1 ? "bg-light-green-artm" : "bg-light-blue-artm"
-        } service__one-item rounded-5`}
+        } service__one-item p-2 p-md-5 mb-3 rounded-5`}
         style={{ backgroundImage: `url(${shape.src})` }}
       >
         <div className="service-cols service__one-item-content">

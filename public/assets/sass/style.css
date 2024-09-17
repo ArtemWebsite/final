@@ -6246,10 +6246,6 @@ Responsive Menu Css
     grid-template-columns: repeat(1, 1fr);
   }
 
-  .service__one-item {
-    padding: 15px 6px !important;
-    font-size: 12px;
-  }
   .service__one-item-content h6 {
     margin-bottom: 8px;
     transition: 0.4s;
@@ -6495,12 +6491,10 @@ Responsive Menu Css
 }
 .service__one-item {
   background: var(--bg-white);
-  padding: 45px 45px 40px 45px;
   background-repeat: no-repeat;
   background-position: bottom;
   transition: 0.4s;
   border: 1px solid var(--border-color-1);
-  margin-top: 25px;
 }
 .service__one-item-icon {
   margin-bottom: 25px;
@@ -6516,7 +6510,6 @@ Responsive Menu Css
   transition: 0.4s;
 }
 .service__one-item-content p {
-  margin-bottom: 30px;
   transition: 0.4s;
 }
 .service__one-item-content > a {
@@ -10625,7 +10618,6 @@ p.textdata {
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: space-between;
-  height: 260px;
 }
 .cbam_three_tab .cbam__banner_text {
   height: 190px;
@@ -10658,7 +10650,7 @@ p.textdata {
     height: 52px;
   }
   .cbam_banner_area {
-    padding: 4rem 30px;
+    padding: 0rem 30px;
   }
   .cbam_three_tab .row {
     gap: 25px;
@@ -10666,10 +10658,9 @@ p.textdata {
   .cbam_service.service__one .service__one-item {
     height: auto !important;
     min-height: auto !important;
-    padding: 30px !important;
   }
   .cbam_service.service__one {
-    padding: 50px 20px;
+    padding: 0px 20px;
   }
   .cbam_service .service__one-item-content h6 {
     margin-bottom: 8px;
@@ -10702,10 +10693,15 @@ p.textdata {
   border: 2px solid #DDE7EE;
   border-radius: 20px;
 }
+@media (min-width: 767px) {
 .dflex {
   display: flex;
   align-items: center;
   gap: 10px;
+}
+.service-cols {
+  height: 260px;
+}
 }
 .icon-small {
   width: 12px;
