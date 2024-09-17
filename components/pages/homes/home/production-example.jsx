@@ -5,7 +5,7 @@ const ProductionRoutesTable = () => {
     <div className="container mt-5 mb-100">
         <div className="col-xl-12 text-center"><div className="mb-5"><h2 className="mb-5">Example Alumina Production under CBAM Rules</h2></div></div>
       <div className="table-responsive">
-        <table className="table custom-table text-center">
+        <table className="table custom-table-bottom text-center">
           <thead>
             <tr>
               <th>Production Routes</th>

@@ -34,10 +34,33 @@
       "static/chunks/main-app.js",
       "static/chunks/app/contact/page.js"
     ],
-    "/not-found": [
+    "/cbam-importer/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/not-found.js"
+      "static/css/app/cbam-importer/page.css",
+      "static/chunks/app/cbam-importer/page.js"
+    ],
+    "/team-two/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/team-two/page.js"
+    ],
+    "/team-three/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/team-three/page.js"
+    ],
+    "/cbam-installation/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/cbam-installation/page.css",
+      "static/chunks/app/cbam-installation/page.js"
+    ],
+    "/cbam/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/cbam/page.css",
+      "static/chunks/app/cbam/page.js"
     ]
   }
 }

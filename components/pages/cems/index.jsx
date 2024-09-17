@@ -17,6 +17,56 @@ const CEMS = () => {
 
       <HeaderOne />
       <Technology />
+      <div className="pt-40">
+        <div className="container">
+          <div className="row">
+            <div className="col-xl-12">
+              <div className="cbam__banner_text mb-5">
+                <h2 className="mb-md-5 text-center">
+                  <span className="color-green-artm"> System </span> Overview
+                </h2>
+                <p className="text-center">
+                The ARTEM CEMS Modul is designed to continuously monitor multiple parameters, inlcuding the content of CO2 SO2, NO, O2 and Perfluoro carbons. It measures:  The measured parameters are transmitted to the
+                  <span className="color-green-artm">
+                  Data Storage System
+                  </span>
+                  (DSS).
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-lg-3 col-md-6 rounded">
+              <div className="col-xl-12 bg-light-green-artm p-1">
+                <div className="text-center">
+                    Flow Rate
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-6 rounded">
+              <div className="col-xl-12 bg-light-blue-artm p-1">
+                <div className="text-center">
+                    Temperature
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-6 rounded">
+              <div className="col-xl-12 bg-light-green-artm p-1">
+                <div className="text-center">
+                    Pressure
+                </div>
+              </div>
+            </div>
+			<div className="col-lg-3 col-md-6 rounded">
+              <div className="col-xl-12 bg-light-blue-artm p-1">
+                <div className="text-center">
+                    Humidity of the flue gas
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <ImageWithText/>
       <MeasurementTable></MeasurementTable>
       <BottomImage />

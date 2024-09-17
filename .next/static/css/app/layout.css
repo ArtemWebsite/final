@@ -11737,11 +11737,8 @@ p.textdata {
 .custom-table {
   width: 100%;
   border-collapse: separate;
-  border-spacing: 0;
-  border-radius: 10px;
   overflow: hidden;
-  background-color: #f8f9fa;
- 
+  border-spacing: 20px;
 }
 
 .custom-table thead th {
@@ -11750,8 +11747,16 @@ p.textdata {
   font-weight: bold;
   padding: 1rem;
   font-size: 1.2rem;
+  border-radius: 20px;
+  text-align: center;
 }
-
+.custom-table-green tr td {
+  background: #EFFAF8;
+  border: 2px solid #D8F3EE;
+}
+.custom-table-green thead th {
+    background: #74D5C2;
+}
 .custom-table tbody tr {
   transition: background-color 0.3s ease;
 }
@@ -11790,8 +11795,10 @@ p.textdata {
 }
 .custom-table td {
   font-weight: 500;
-  border: 1px solid #fcfcfc;
-  background: transparent;
+  background: #F1F5F8;
+  border: 2px solid #DDE7EE;
+  border-radius: 20px;
+  text-align: center;
 }
 
 .custom-table td:first-child {

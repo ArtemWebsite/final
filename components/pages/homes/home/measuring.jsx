@@ -4,7 +4,7 @@ const MeasurementTable = () => {
   return (
     <div className="container mt-5 section-padding">
      
-      <div className="col-xl-12 text-center"><div className="mb-5"><h2 className="mb-5">Measurement Method</h2></div></div>
+      <div className="col-xl-12 text-center"><div className="mb-5"><h2 className="mb-5"><span className="color-green-artm">Measurement</span> Method</h2></div></div>
       <div className="table-responsive">
         <table className="table custom-table">
           <thead>
@@ -55,9 +55,9 @@ const MeasurementTable = () => {
       </div>
 
       <div className="container mt-5">
-      <div className="col-xl-12 text-center"><div className="mb-5"><h2 className="mb-5">Main Technical Specifications</h2></div></div>
+      <div className="col-xl-12 text-center"><div className="mb-5"><h2 className="mb-5">Main Technical <span className="color-green-artm">Specifications</span></h2></div></div>
       <div className="table-responsive">
-        <table className="table custom-table">
+        <table className="table custom-table custom-table-green">
           <thead>
             <tr>
               <th>System Parameter</th>
