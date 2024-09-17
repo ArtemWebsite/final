@@ -10,7 +10,7 @@ import "../homes/home/home.css";
 const CbamDeclarants = () => {
   return (
     <>
-      <SEO pageTitle="CBAM Importer" />
+      <SEO pageTitle="CBAM Declarants" />
 
       <HeaderOne />
       <CbamDeclarantsMain />

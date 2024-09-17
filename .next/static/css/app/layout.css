@@ -11760,7 +11760,12 @@ p.textdata {
 .custom-table tbody tr {
   transition: background-color 0.3s ease;
 }
-
+.custom-table-bottom td {
+  border: 2px solid #000000;
+}
+.custom-table-bottom th {
+  border: 2px solid #000000;
+}
 .custom-table tbody tr:nth-child(even) {
   background-color: #dff1ea;
 }
@@ -11862,4 +11867,10 @@ i[class*=" flaticon-"]:before, i[class^=flaticon-]:before {
   font-size: 25px;
   border-radius: 50%;
   padding: 10px;
+}
+.icon-mark {
+  background: #fff;
+  padding: 0 10px;
+  border-radius: 50%;
+  width: max-content;
 }

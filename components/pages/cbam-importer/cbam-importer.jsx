@@ -32,12 +32,12 @@ const CbamImporterMain = () => {
                   </div>
                 </div>
                 <div className="t-left mt-60">
-                  <div className="dflex bg-light-green-artm mt-3 mb-4 p-4 display-7">
+                  <div className="dflex bg-light-green-artm mt-3 mb-4 p-2 p-md-3 display-7">
                     <img className="icon-small" src={cbamArrow.src} />
                     Comply with CBAM{" "}
                     <span className="color-green-artm">Obligations</span>
                   </div>
-                  <div className="dflex bg-light-green-artm mt-3 mb-4 p-4 display-7">
+                  <div className="dflex bg-light-green-artm mt-3 mb-4 p-2 p-md-3 display-7">
                     <img className="icon-small" src={cbamArrow.src} />
                     Optimize the CBAM  <span className="color-green-artm">
                     Price you Pay
@@ -135,7 +135,7 @@ const CbamImporterMain = () => {
       <div
         className={`${
           id % 2 === 1 ? "bg-light-green-artm" : "bg-light-blue-artm"
-        } service__one-item rounded-5`}
+        } service__one-item p-2 p-md-5 mb-3 rounded-5`}
         style={{ backgroundImage: `url(${shape.src})` }}
       >
         <div className="service-cols service__one-item-content">

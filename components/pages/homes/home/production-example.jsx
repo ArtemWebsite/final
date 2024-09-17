@@ -46,9 +46,9 @@ const ProductionRoutesTable = () => {
         </table>
 
       </div>
-      <div className="contact__form-area mt-20 rounded bg-light-blue-artm">
-      <h6>PEP: Possible Emission Point</h6>
-      <h6>CBAM defines the points of emission for each production route that needs to be accounted for in the emission calculation and the reporting</h6>
+      <div className="mt-20">
+      <p><strong>PEP:</strong> Possible Emission Point</p>
+      <p><strong>CBAM</strong> defines the points of emission for each production route that needs to be accounted for in the emission calculation and the reporting</p>
                             </div>
     </div>
   );
