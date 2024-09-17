@@ -1,1 +1,6 @@
-{}
+{
+  "/not-found": "app/not-found.js",
+  "/cems/page": "app/cems/page.js",
+  "/page": "app/page.js",
+  "/cbam-declarants/page": "app/cbam-declarants/page.js"
+}
