@@ -48,9 +48,6 @@ const ResponsiveMenu = () => {
             <li>
               <Link href="/cbam">What is CBAM</Link>
             </li>
-            <li>
-              <Link href="#">CBAM Obligations</Link>
-            </li>
           </ul>
           <a
             className={`mean-expand ${activeIcon("cbam")}`}
@@ -81,14 +78,8 @@ const ResponsiveMenu = () => {
         <li className="menu-item ">
           <Link href="#">About Us</Link>
           <ul className="sub-menu" style={activeSubMenu("about-us")}>
-          <li>
-              <Link href="#">Company</Link>
-            </li>
             <li>
               <Link href="/team">Team</Link>
-            </li>
-            <li>
-              <Link href="#">Career</Link>
             </li>
             </ul>
           <a
@@ -98,7 +89,7 @@ const ResponsiveMenu = () => {
         </li>
      
         <li className="menu-item ">
-        <Link href="/">CONTACT</Link>
+        <Link href="/">Contact</Link>
         </li>
       </ul>
     </>

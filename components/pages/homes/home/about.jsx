@@ -43,7 +43,7 @@ const About = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-6 col-md-6 rounded">
+            <div className="col-lg-6 col-md-6 rounded mb-3">
               <div className="col-xl-12 bg-light-blue-artm p-4">
                 <div className="cbam__banner_text">
                 <img className="icon-small2" src={vector2.src} />
@@ -53,7 +53,7 @@ const About = () => {
                 </div>
               </div>
             </div>
-			 <div className="col-lg-6 col-md-6 rounded">
+			 <div className="col-lg-6 col-md-6 rounded mb-3">
               <div className="col-xl-12 bg-light-green-artm p-4">
                 <div className="cbam__banner_text">
                 <img className="icon-small2" src={vector1.src} />

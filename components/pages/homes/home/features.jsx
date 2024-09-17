@@ -9,8 +9,8 @@ const Features = () => {
         <div className="bg-white rounded">
           <div className="row al-center">
             <div className="col-xl-12">
-              <div className="cbam__banner_text mb-5">
-                <h2 className="mb-5">
+              <div className="cbam__banner_text mb-md-5">
+                <h2 className="mb-md-5">
                 What is ARTEM
                   <span className="color-green-artm"> Reporting Tool? </span>
                 </h2>

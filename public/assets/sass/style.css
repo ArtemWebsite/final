@@ -148,10 +148,10 @@ a:hover {
 
 @media (max-width: 575px) {
   .section-padding {
-    padding: 90px 0px;
+    padding: 40px 0px;
   }
   .section-padding-two {
-    padding: 90px 0 55px 0;
+    padding: 40px 0 55px 0;
   }
   .section-padding-three {
     padding: 55px 0 90px 0;
