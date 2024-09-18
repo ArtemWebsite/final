@@ -139,7 +139,7 @@ const CBAMAccreditedVerifierMain = () => {
                 <div
         className={`${
           id % 2 === 1 ? "bg-light-green-artm" : "bg-light-blue-artm"
-        } service__one-item p-2 p-md-5 mb-3 rounded-5`}
+        } service__one-item p-2 p-md-5 mb-4 rounded-5`}
         style={{ backgroundImage: `url(${shape.src})` }}
       >
                   <div className="service-cols service__one-item-content">
@@ -165,14 +165,14 @@ const CBAMAccreditedVerifierMain = () => {
         className="">
         
           <div className="row">
-            <div className="col-12 col-md-4 sieze-line bg-theme-green p-5">
+            <div className="col-12 col-md-4 sieze-line bg-theme-green p-2 p-md-5">
             <div className="container">
                 <h2>
                   SEIZE THE ADVANTAGE
                 </h2>
               </div>
             </div>
-            <div className="col-12 col-md-8 licences bg-theme-light-green p-5">
+            <div className="col-12 col-md-8 licences bg-theme-light-green p-2 p-md-5">
             <div className="container">
                 <h2 className=" mb-2">Licenses</h2>
                 <p className="custom-font-lead p-0 m-0">

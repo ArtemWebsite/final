@@ -1,22 +1,21 @@
 {
   "pages": {
-    "/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/page.css",
-      "static/chunks/app/page.js"
-    ],
     "/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/cems/page": [
+    "/team-two/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/cems/page.css",
-      "static/chunks/app/cems/page.js"
+      "static/chunks/app/team-two/page.js"
+    ],
+    "/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/page.css",
+      "static/chunks/app/page.js"
     ],
     "/cbam-declarants/page": [
       "static/chunks/webpack.js",
@@ -24,15 +23,10 @@
       "static/css/app/cbam-declarants/page.css",
       "static/chunks/app/cbam-declarants/page.js"
     ],
-    "/team/page": [
+    "/[not-found]/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/team/page.js"
-    ],
-    "/contact/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/contact/page.js"
+      "static/chunks/app/[not-found]/page.js"
     ],
     "/cbam-importer/page": [
       "static/chunks/webpack.js",
@@ -40,27 +34,11 @@
       "static/css/app/cbam-importer/page.css",
       "static/chunks/app/cbam-importer/page.js"
     ],
-    "/team-two/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/team-two/page.js"
-    ],
-    "/team-three/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/team-three/page.js"
-    ],
     "/cbam-installation/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/cbam-installation/page.css",
       "static/chunks/app/cbam-installation/page.js"
-    ],
-    "/cbam/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/cbam/page.css",
-      "static/chunks/app/cbam/page.js"
     ],
     "/cbam-accredited-verifier/page": [
       "static/chunks/webpack.js",
@@ -68,10 +46,11 @@
       "static/css/app/cbam-accredited-verifier/page.css",
       "static/chunks/app/cbam-accredited-verifier/page.js"
     ],
-    "/not-found": [
+    "/cbam/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/not-found.js"
+      "static/css/app/cbam/page.css",
+      "static/chunks/app/cbam/page.js"
     ]
   }
 }

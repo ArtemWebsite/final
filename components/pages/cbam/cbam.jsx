@@ -15,11 +15,11 @@ import CbamTimeline from "./cbam-timeline";
 const CBAM = () => {
   return (
     <div className="main-container">
-      <div className="pt-100  container top-container">
+      <div className="pt-20  container top-container">
         <section className="why-cbam row container-fluid p-0 m-0">
           <div className="row mx-auto">
             <div className="col-md-12 text-center">
-			  <h2 className="mb-5">
+			  <h2 className="mb-md-5">
                       What is
                       <span className="color-green-artm"> CBAM </span>
                     </h2>
@@ -40,9 +40,9 @@ const CBAM = () => {
         </section>
       </div>
 
-      <section className="climate-changes  container p-0">
-        <div className="row align-items-center conatiner outerwrapper w-100 p-0 m-0">
-          <div className="col-md-6 pt-100 pb-100 ">
+      <section className="climate-changes  container pt-md-60">
+        <div className="row align-items-center conatiner outerwrapper">
+          <div className="col-md-6">
             <div className="p-4 mx-auto">
               <h2 className="pb-4">
                 Climate change is a global <span className="color-green-artm">problem</span> that needs global <span className="color-green-artm">solutions.</span>

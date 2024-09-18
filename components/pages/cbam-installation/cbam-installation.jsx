@@ -281,7 +281,7 @@ const CbamInstallationMain = () => {
                   <span className="color-green-artm"> Key </span>{" "}
                   Functionalities
                 </h2>
-                <p class="display-6">
+                <p>
                   ARTEM provides a <span className="color-green-artm">clear and easy</span> system to the CBAM Importer to
                   manage the CBAM Data collection along the whole supply chain.
                 </p>
@@ -320,14 +320,14 @@ const CbamInstallationMain = () => {
         className="">
         
           <div className="row">
-            <div className="col-12 col-md-4 sieze-line bg-theme-green p-5">
+            <div className="col-12 col-md-4 sieze-line bg-theme-green p-2 p-md-5">
             <div className="container">
                 <h2>
                   SEIZE THE ADVANTAGE
                 </h2>
               </div>
             </div>
-            <div className="col-12 col-md-8 licences bg-theme-light-green p-5">
+            <div className="col-12 col-md-8 licences bg-theme-light-green p-2 p-md-5">
             <div className="container">
                 <h2 className=" mb-2">Licenses</h2>
                 <p className="custom-font-lead p-0 m-0">
