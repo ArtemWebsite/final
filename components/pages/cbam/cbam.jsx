@@ -69,7 +69,7 @@ const CBAM = () => {
       </section>
 
       <section className="cbam-legal section-padding container">
-        <div className="row mb-70">
+        <div className="row mb-md-70">
           <div className="col-xl-12">
             <div className="work__process-title t-center pb-30">
               <h2><span className="color-green-artm">CBAM</span>-legal complications and impact</h2>
