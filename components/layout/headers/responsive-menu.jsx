@@ -70,7 +70,7 @@ const ResponsiveMenu = () => {
             <Link href="#">CBAM Reporting</Link>
           </li>
           <li>
-            <Link href="#">CBAM CEMS System</Link>
+            <Link href="/cems">CBAM CEMS System</Link>
           </li>
           <li>
             <Link href="#">CBAM Virtual Verification</Link>

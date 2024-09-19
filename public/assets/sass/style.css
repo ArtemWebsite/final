@@ -147,6 +147,9 @@ a:hover {
 }
 
 @media (max-width: 575px) {
+  .text-center-mobile {
+    text-align: center;
+  }
   .section-padding {
     padding: 40px 0px;
   }
