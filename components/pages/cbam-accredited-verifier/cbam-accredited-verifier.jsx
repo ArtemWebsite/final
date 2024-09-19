@@ -72,7 +72,7 @@ const CBAMAccreditedVerifierMain = () => {
             </div>
             <div className="col-12 col-md-8 mb-3 sieze-line">
               <div>
-                <h3 className="text-white pb-60 pt-60">
+                <h3 className="text-white pb-60 pt-60 text-center-mobile">
                 How can the <span className="color-green-artm">Verifiers</span> increase their output and their <span className="color-green-artm">efficiency</span> in the verification process?
                 </h3>
               </div>

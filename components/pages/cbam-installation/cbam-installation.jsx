@@ -74,7 +74,7 @@ const CbamInstallationMain = () => {
             </div>
             <div className="col-12 col-md-8 mb-3 sieze-line">
               <div>
-                <h3 className="text-white pb-60 pt-60">
+                <h3 className="text-white pb-60 pt-60 text-center-mobile">
                   Get in on the business of offering high-end
                   <span className="color-green-artm"> CBAM </span> Declaration
                   service to Importers

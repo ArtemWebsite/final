@@ -169,7 +169,7 @@ const CBAM = () => {
             </div>
             <div className="col-12 col-md-8 mb-3 sieze-line">
               <div>
-                <h3 className="text-white pb-60 pt-60">
+                <h3 className="text-white pb-60 pt-60 text-center-mobile">
                 How much <span className="color-green-artm">goods</span> are affected by CBAM?
                 </h3>
                 <p>“US$ 45 billion of CBAM-covered goods were exported to Europe from Asia-Pacific in 2022, representing 4 percent of total exports from the region”</p>

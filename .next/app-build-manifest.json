@@ -29,6 +29,24 @@
       "static/chunks/main-app.js",
       "static/css/app/cems/page.css",
       "static/chunks/app/cems/page.js"
+    ],
+    "/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/page.css",
+      "static/chunks/app/page.js"
+    ],
+    "/cbam-accredited-verifier/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/cbam-accredited-verifier/page.css",
+      "static/chunks/app/cbam-accredited-verifier/page.js"
+    ],
+    "/cbam/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/cbam/page.css",
+      "static/chunks/app/cbam/page.js"
     ]
   }
 }
