@@ -1,6 +1,6 @@
 {
-  "/cbam-importer/page": "app/cbam-importer/page.js",
   "/cbam-installation/page": "app/cbam-installation/page.js",
+  "/cbam-importer/page": "app/cbam-importer/page.js",
   "/cbam-declarants/page": "app/cbam-declarants/page.js",
   "/cems/page": "app/cems/page.js"
 }

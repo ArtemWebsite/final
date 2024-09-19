@@ -36,28 +36,28 @@ const CEMS = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-lg-3 col-md-6 rounded">
+            <div className="col-lg-3 col-md-6 rounded mb-4">
               <div className="col-xl-12 bg-light-green-artm p-1">
                 <div className="text-center">
                     Flow Rate
                 </div>
               </div>
             </div>
-            <div className="col-lg-3 col-md-6 rounded">
+            <div className="col-lg-3 col-md-6 rounded mb-4">
               <div className="col-xl-12 bg-light-blue-artm p-1">
                 <div className="text-center">
                     Temperature
                 </div>
               </div>
             </div>
-            <div className="col-lg-3 col-md-6 rounded">
+            <div className="col-lg-3 col-md-6 rounded mb-4">
               <div className="col-xl-12 bg-light-green-artm p-1">
                 <div className="text-center">
                     Pressure
                 </div>
               </div>
             </div>
-			<div className="col-lg-3 col-md-6 rounded">
+			<div className="col-lg-3 col-md-6 rounded mb-4">
               <div className="col-xl-12 bg-light-blue-artm p-1">
                 <div className="text-center">
                     Humidity of the flue gas
