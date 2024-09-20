@@ -20,7 +20,7 @@ const ContactUs = () => {
           <div className="row">
             <div className="col-lg-12 lg-mb-25">
               <div className="contact__form-area">
-                <h3>Get In touch</h3>
+                <h3>Request a Demo</h3>
                 <FormArea />
               </div>
             </div>

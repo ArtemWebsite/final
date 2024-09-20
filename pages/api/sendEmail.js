@@ -1,9 +1,16 @@
-// pages/api/sendEmail.js
 import nodemailer from "nodemailer";
 
 export default async function handler(req, res) {
   if (req.method === "POST") {
-    const { name, email, subject, message } = req.body;
+    const {
+      name,
+      email,
+      subject,
+      message,
+      isEuropeanImporter,
+      importedProducts,
+      productOrigin,
+    } = req.body;
 
     // Create a transporter object using SMTP transport options
     let transporter = nodemailer.createTransport({
@@ -14,13 +21,28 @@ export default async function handler(req, res) {
       },
     });
 
+    // Organize the email content
+    const emailContent = `
+      Name: ${name}
+      Email: ${email}
+      Subject: ${subject}
+
+      --- Message ---
+      ${message}
+
+      --- Survey Responses ---
+      Are you a European importer?: ${isEuropeanImporter}
+      What products do you import into the EU?: ${importedProducts}
+      Where were the products produced?: ${productOrigin}
+    `;
+
     try {
       // Send mail with the defined transport object
       const info = await transporter.sendMail({
         from: email, // Sender address
         to: process.env.EMAIL_TO, // List of receivers (your email)
         subject: `${subject} - From ${name}`, // Subject line
-        text: `Message from: ${email}\n\n${message}`, // Include the sender's email in the body
+        text: emailContent, // Email body content
       });
 
       // Respond with success
