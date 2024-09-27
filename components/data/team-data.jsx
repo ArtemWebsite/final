@@ -45,7 +45,7 @@ const teamData = [
     id: "leo",
     image: team2,
     name: "Leo Rees Murphy",
-    position: "Head of Legal and Product",
+    position: "Chief Operations Officer",
     mail: "leo@gmail.com",
     phone: "+125 (261) 564 232",
     category: "writer",
@@ -171,7 +171,7 @@ const teamData = [
       },
     ],
   },
-   {
+  {
     id: "doris",
     image: team7,
     name: "Doris Duan",
