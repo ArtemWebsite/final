@@ -41,21 +41,23 @@ const BannerOne = () => {
                   <div className="col-xl-12 pt-120 text-center">
                     <div className={styles.banner__one_content}>
                       <h2 className="text-light pb-30">
-                      Comply With EU 
-                      Emission Regulations With ARTEM
+                        We Built the Infrastructure for Global Carbon Pricing
+                        With ARTEM
                       </h2>
                       <p>
-                      EU Regulation (EU) 2024/1787 on the reduction of methane emissions in the energy sector  
+                        EU Regulation (EU) 2024/1787 on the reduction of methane
+                        emissions in the energy sector
                       </p>
                       <p>
-                      EU Regulation (EU) 2023/956 Carbon Border Adjustment Mechanism “CBAM”  
+                        EU Regulation (EU) 2023/956 Carbon Border Adjustment
+                        Mechanism “CBAM”
                       </p>
                       <div className={styles.banner__one_content_button}>
                         <Link className="btn-one me-3 mb-3" href="/contact">
-                        ARTEM CBAM Reporting Tool
+                          ARTEM CBAM Reporting Tool
                         </Link>
                         <Link className="btn-three mb-5" href="/contact">
-                        ARTEM Methane Reporting Tool
+                          ARTEM Methane Reporting Tool
                         </Link>
                       </div>
                     </div>
