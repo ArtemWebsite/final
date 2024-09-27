@@ -41,8 +41,7 @@ const BannerOne = () => {
                   <div className="col-xl-12 pt-120 text-center">
                     <div className={styles.banner__one_content}>
                       <h2 className="text-light pb-30">
-                        We Built the Infrastructure for <br></br>
-                        Global Carbon Pricing With ARTEM
+                        We Built the Infrastructure for Global Carbon Pricing
                       </h2>
                       <p>
                         Comply with EU Emission Regulations: EU Regulation (EU)
