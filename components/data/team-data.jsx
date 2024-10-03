@@ -145,32 +145,32 @@ const teamData = [
       },
     ],
   },
-  {
-    id: "devon-lane",
-    image: team6,
-    name: "Devon Lane",
-    position: "Technician",
-    mail: "devon@gmail.com",
-    phone: "+125 (544) 897 488",
-    category: "designer",
-    social_link: [
-      {
-        link: "https://facebook.com",
-        target: "_blank",
-        icon: <i className="fab fa-facebook-f"></i>,
-      },
-      {
-        link: "https://twitter.com",
-        target: "_blank",
-        icon: <i className="fa-brands fa-x-twitter"></i>,
-      },
-      {
-        link: "https://linkedin.com",
-        target: "_blank",
-        icon: <i className="fab fa-linkedin-in"></i>,
-      },
-    ],
-  },
+  // {
+  //   id: "devon-lane",
+  //   image: team6,
+  //   name: "Devon Lane",
+  //   position: "Technician",
+  //   mail: "devon@gmail.com",
+  //   phone: "+125 (544) 897 488",
+  //   category: "designer",
+  //   social_link: [
+  //     {
+  //       link: "https://facebook.com",
+  //       target: "_blank",
+  //       icon: <i className="fab fa-facebook-f"></i>,
+  //     },
+  //     {
+  //       link: "https://twitter.com",
+  //       target: "_blank",
+  //       icon: <i className="fa-brands fa-x-twitter"></i>,
+  //     },
+  //     {
+  //       link: "https://linkedin.com",
+  //       target: "_blank",
+  //       icon: <i className="fab fa-linkedin-in"></i>,
+  //     },
+  //   ],
+  // },
   {
     id: "doris",
     image: team7,
@@ -353,32 +353,32 @@ const teamData = [
       },
     ],
   },
-  {
-    id: "jessica",
-    image: team14,
-    name: "Jessica Rehnert",
-    position: "Marketing  EU",
-    mail: "devon@gmail.com",
-    phone: "+125 (544) 897 488",
-    category: "designer",
-    social_link: [
-      {
-        link: "https://facebook.com",
-        target: "_blank",
-        icon: <i className="fab fa-facebook-f"></i>,
-      },
-      {
-        link: "https://twitter.com",
-        target: "_blank",
-        icon: <i className="fa-brands fa-x-twitter"></i>,
-      },
-      {
-        link: "https://linkedin.com",
-        target: "_blank",
-        icon: <i className="fab fa-linkedin-in"></i>,
-      },
-    ],
-  },
+  // {
+  //   id: "jessica",
+  //   image: team14,
+  //   name: "Jessica Rehnert",
+  //   position: "Marketing  EU",
+  //   mail: "devon@gmail.com",
+  //   phone: "+125 (544) 897 488",
+  //   category: "designer",
+  //   social_link: [
+  //     {
+  //       link: "https://facebook.com",
+  //       target: "_blank",
+  //       icon: <i className="fab fa-facebook-f"></i>,
+  //     },
+  //     {
+  //       link: "https://twitter.com",
+  //       target: "_blank",
+  //       icon: <i className="fa-brands fa-x-twitter"></i>,
+  //     },
+  //     {
+  //       link: "https://linkedin.com",
+  //       target: "_blank",
+  //       icon: <i className="fab fa-linkedin-in"></i>,
+  //     },
+  //   ],
+  // },
   {
     id: "rahul",
     image: team15,
