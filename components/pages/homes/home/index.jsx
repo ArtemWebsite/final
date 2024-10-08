@@ -24,19 +24,37 @@ import Bayer from "./bayer";
 const HomeOne = () => {
   return (
     <div>
-     
+      <meta
+        name="description"
+        content="ARTEM’s CBAM reporting tool & carbon reporting software ensure CBAM compliance, combat carbon leakage and facilitates the transition to net-zero manufacturing."
+      />
+      <meta
+        name="keywords"
+        content="CBAM reporting tool, carbon reporting software, cbam fertilizer, cbam aluminium, cbam iron and steel, hydrogen cbam, cbam hydrogen, cbam electricity, cbam reporting tool, methane reporting tool, cbam reporting software, carbon reporting software"
+      />
+      <meta name="author" content="Artem Team" />
+      <meta
+        property="og:title"
+        content="ARTEM - CBAM Reporting Tool | Carbon Reporting Software"
+      />
+      <meta
+        property="og:description"
+        content="ARTEM’s CBAM reporting tool & carbon reporting software ensure CBAM compliance, combat carbon leakage and facilitates the transition to net-zero manufacturing."
+      />
+      <meta property="og:image" content="/img/logo-main.png" />
+      <meta property="og:url" content="https://artem.earth" />
 
-       <SEO pageTitle="Artem" />
+      <SEO pageTitle="Artem - CBAM Reporting Tool | Carbon Reporting Software" />
       <HeaderOne />
       <BannerOne />
       <Features />
       <About />
       <Certificate />
       <Technology />
-      
+
       <ArtemPioneer />
       <BottomImage />
-     
+
       <FooterOne />
       <ScrollToTop />
     </div>
