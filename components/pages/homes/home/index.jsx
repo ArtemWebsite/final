@@ -43,6 +43,10 @@ const HomeOne = () => {
       />
       <meta property="og:image" content="/img/logo-main.png" />
       <meta property="og:url" content="https://artem.earth" />
+      <meta
+        name="google-site-verification"
+        content="eiIyJqIsNB_K_sqBmrANL4RNrjhvkZCd--QP4TwDCQ4"
+      />
 
       <SEO pageTitle="Artem - CBAM Reporting Tool | Carbon Reporting Software" />
       <HeaderOne />
