@@ -11886,9 +11886,9 @@ i[class*=" flaticon-"]:before, i[class^=flaticon-]:before {
   border: none;
   display: none !important;
 }
-.goog-te-gadget-simple span:nth-child(2) {
+/* .goog-te-gadget-simple span:nth-child(2) {
   display: none;
-}
+} */
 .col-lg-8.maintopbar {
   display: flex;
   justify-content: space-between;
