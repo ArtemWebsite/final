@@ -1,3 +1,4 @@
 {
-  "/cbam-importer/page": "app/cbam-importer/page.js"
+  "/page": "app/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js"
 }

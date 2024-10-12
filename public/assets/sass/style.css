@@ -10895,3 +10895,17 @@ i[class*=" flaticon-"]:before, i[class^=flaticon-]:before {
   border-radius: 50%;
   width: max-content;
 }
+
+.goog-te-gadget img {
+  vertical-align: middle;
+  border: none;
+  display: none !important;
+}
+.goog-te-gadget-simple span:nth-child(2) {
+  display: none;
+}
+.col-lg-8.maintopbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}

@@ -9,6 +9,7 @@ import logo1 from "../../../public/assets/img/logo.png";
 import logo from "../../../public/assets/img/logo-main.png";
 import logo2 from "../../../public/assets/img/logo-2.png";
 import MobileMenuPopup from "./mobile-menu/menu-area";
+import LanguageSwitcher from "./LanguageSwitcher";
 
 const HeaderOne = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -19,7 +20,7 @@ const HeaderOne = () => {
       <div className="topBar__one two">
         <div className="custom__container">
           <div className="row al-center">
-            <div className="col-lg-8">
+            <div className="col-lg-8 maintopbar">
               <div className="topBar__one-left lg-t-center">
                 <ul>
                   <li>
@@ -28,6 +29,7 @@ const HeaderOne = () => {
                   </li>
                 </ul>
               </div>
+              <LanguageSwitcher/>
             </div>
           </div>
         </div>
