@@ -10909,3 +10909,6 @@ i[class*=" flaticon-"]:before, i[class^=flaticon-]:before {
   justify-content: space-between;
   width: 100%;
 }
+div#google_translate_element {
+  width: 200px;
+}
