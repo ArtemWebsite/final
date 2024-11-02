@@ -17,7 +17,7 @@ const HeaderOne = () => {
   const [search, setSearch] = useState(false);
   return (
     <>
-      <div className="topBar__one two">
+     {/* <div className="topBar__one two">
         <div className="custom__container">
           <div className="row al-center">
             <div className="col-lg-8 maintopbar">
@@ -33,14 +33,14 @@ const HeaderOne = () => {
             </div>
           </div>
         </div>
-      </div>
-      <div className="header__area">
+      </div> */}
+      <div className="header__area bg-theme-blue text-white">
         <div className="custom__container">
           <div className="header__area-menubar">
             <div className="header__area-menubar-left one">
               <div className="header__area-menubar-left-logo">
                 <Link href="/">
-                  <img src={logo.src} alt="logo" />
+                  <img src={logo1.src} alt="logo" />
                 </Link>
               </div>
             </div>
@@ -51,7 +51,7 @@ const HeaderOne = () => {
             </div>
             <div className="header__area-menubar-right">
               <div className="header__area-menubar-right-btn">
-                <Link className="btn-one" href="/contact">
+                <Link className="btn-three" href="/contact">
                   Request a Demo
                 </Link>
               </div>

@@ -6,7 +6,7 @@ const MainMenu = () => {
     <>
       <ul>
         <li className="menu-item-has-children">
-          <Link href="#">WHY ARTEM</Link>
+          <Link className="text-white" href="#">WHY ARTEM</Link>
           <ul className="sub-menu">
             <li>
               <Link href="/cbam-declarants">CBAM Declarants </Link>
@@ -27,7 +27,7 @@ const MainMenu = () => {
         </li>
 
         <li className="menu-item-has-children">
-          <Link href="/">CBAM</Link>
+          <Link className="text-white" href="/">CBAM</Link>
           <ul className="sub-menu">
             <li>
               <Link href="/cbam">What is CBAM</Link>
@@ -36,7 +36,7 @@ const MainMenu = () => {
           </ul>
         </li>
         <li className="menu-item-has-children">
-          <Link href="#">PRODUCT</Link>
+          <Link className="text-white" href="#">PRODUCT</Link>
           <ul className="sub-menu">
             <li>
               <Link href="/contact">ARTEM Reporting Tool</Link>
@@ -53,7 +53,7 @@ const MainMenu = () => {
           </ul>
         </li>
         <li className="menu-item-has-children">
-          <Link href="/">ABOUT US</Link>
+          <Link className="text-white" href="/">ABOUT US</Link>
           <ul className="sub-menu">
             {/* <li>
               <Link href="#">Company</Link>
@@ -66,7 +66,7 @@ const MainMenu = () => {
         </li>
 
         <li className="menu-item">
-          <Link href="/contact">CONTACT US</Link>
+          <Link className="text-white" href="/contact">CONTACT US</Link>
         </li>
       </ul>
     </>
