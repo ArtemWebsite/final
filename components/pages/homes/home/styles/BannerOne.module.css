@@ -51,6 +51,15 @@
   z-index: 4;
   color: white; /* Ensures text is visible over the video */
 }
+.banner__one_bg_content {
+  position: relative;
+    z-index: 4;
+    color: white;
+    background: rgb(255 255 255 / 38%);
+    padding: 30px;
+    border: 2px solid #ededed;
+    border-radius: 20px;
+}
 
 .banner__one_content_button {
   margin-top: 20px;

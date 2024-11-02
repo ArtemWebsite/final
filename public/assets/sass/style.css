@@ -534,15 +534,49 @@ h6 {
 .btn-two:focus {
   color: var(--text-white);
 }
-
 .btn-two {
   background: var(--primary-color-2);
 }
-
 .btn-three {
   background: var(--primary-color-3);
 }
-
+.btn-four {
+  background: var(--primary-color-4);
+  display: inline-flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 16px;
+    line-height: 26px;
+    padding: 4px 20px;
+    font-family: var(--theme-font-1);
+    position: relative;
+    z-index: 3;
+    overflow: hidden;
+    transition: 0.4s;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-radius: 5px;
+}
+.btn-five {
+  background: #CCE7E0;
+  display: inline-flex;
+  gap: 10px;
+  align-items: center;
+  font-size: 16px;
+  line-height: 26px;
+  padding: 4px 20px;
+  font-family: var(--theme-font-1);
+  position: relative;
+  z-index: 3;
+  overflow: hidden;
+  transition: 0.4s;
+  text-transform: uppercase;
+  font-weight: 500;
+  border-radius: 5px;
+  width: 100%;
+  color: #189472;
+  justify-content: center;
+}
 .subtitle-three,
 .subtitle-two,
 .subtitle-one {
@@ -823,18 +857,6 @@ h6 {
     grid-template-columns: repeat(1, 1fr);
   }
 }
-.author {
-  display: flex;
-  align-items: center;
-  gap: 25px;
-}
-.author-avatar img {
-  width: 60px;
-  height: 60px;
-  -o-object-fit: cover;
-  object-fit: cover;
-  border-radius: 50%;
-}
 ol,
 ul {
   padding-left: 1rem;
@@ -877,6 +899,7 @@ ul {
   --primary-color-1: #233041;
   --primary-color-2: #ff7029;
   --primary-color-3: #8cd2be;
+  --primary-color-4: #189472;
   --text-white: #ffffff;
   --bg-white: #ffffff;
   --text-heading-color: #1f242c;
