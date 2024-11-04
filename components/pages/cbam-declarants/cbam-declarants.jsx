@@ -3,10 +3,7 @@ import Link from "next/link";
 import img1 from "../../../public/assets/img/cbam-declarants/photo1.png";
 import img2 from "../../../public/assets/img/cbam-declarants/photo2.png";
 import img3 from "../../../public/assets/img/cbam-declarants/photo3.png";
-import i1 from "../../../public/assets/img/cbam-declarants/i1.png";
-import i2 from "../../../public/assets/img/cbam-declarants/i2.jpg";
-import i3 from "../../../public/assets/img/cbam-declarants/i3.jpg";
-import i4 from "../../../public/assets/img/cbam-declarants/i4.jpg";
+import DeclarantSlider from "./declarant-slider";
 import BannerOne from "./declarants-banner";
 import Timeline from "./milestones";
 
@@ -42,30 +39,8 @@ const CbamDeclarantsMain = () => {
             </div>
           </div>
         </div>
-
-        <div className="row">
-          <div className="col-lg-3 col-md-6 rounded">
-            <div className="col-xl-12 p-4">
-            <img src={i1.src} alt="img-with-text" />
-            </div>
-          </div>
-          <div className="col-lg-3 col-md-6 rounded">
-            <div className="col-xl-12 p-4">
-            <img src={i2.src} alt="img-with-text" />
-            </div>
-          </div>
-          <div className="col-lg-3 col-md-6 rounded">
-            <div className="col-xl-12 p-4">
-            <img src={i3.src} alt="img-with-text" />
-            </div>
-          </div>
-          <div className="col-lg-3 col-md-6 rounded">
-            <div className="col-xl-12 p-4">
-            <img src={i4.src} alt="img-with-text" />
-            </div>
-          </div>
-        </div>
       </div>
+      <DeclarantSlider />
 
       <div className="pt-60">
         <div className="container">
