@@ -1,6 +1,10 @@
 import React from "react";
 import Link from "next/link";
+import img1 from "../../../public/assets/img/cbam-declarants/photo1.png";
+import img2 from "../../../public/assets/img/cbam-declarants/photo2.png";
+import img3 from "../../../public/assets/img/cbam-declarants/photo3.png";
 import BannerOne from "./declarants-banner";
+import Timeline from "./milestones";
 
 const CbamDeclarantsMain = () => {
   return (
@@ -43,21 +47,10 @@ const CbamDeclarantsMain = () => {
               <h2 className="text-center">CBAM Timeline</h2>
             </div>
           </div>
+          <Timeline />
         </div>
       </div>
-
-      <div className="pt-60">
-        <div className="container bg-white rounded">
-          <div className="row align-center">
-            <div className="col-xl-12">
-              <h2 className="mb-5 text-center">Industry-Tested Solutions to Meet Your Needs</h2>
-              <p className="text-center">
-                With over 30 years of experience in the manufacturing sector, the team at ARTEM are perfectly placed to assist you with complying with the CBAM requirements.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
+      
 
       <div className="section-padding">
         <div className="container">
@@ -125,9 +118,18 @@ const CbamDeclarantsMain = () => {
 
       <div className="cbam_three_tab section-padding">
         <div className="container">
+          <div className="row align-center">
+            <div className="col-xl-12">
+              <h2 className="mb-5 text-center">Industry-Tested Solutions to Meet Your Needs</h2>
+              <p className="text-center">
+                With over 30 years of experience in the manufacturing sector, the team at ARTEM are perfectly placed to assist you with complying with the CBAM requirements.
+              </p>
+            </div>
+      </div>
         <div className="row">
-            <div className="col-lg-3 col-md-6 rounded border m-4 d-flex justify-content-between flex-column">
+            <div className="col-lg-4 col-md-6 rounded border d-flex justify-content-between flex-column">
               <div className="col-xl-12 p-4">
+              <img src={img1.src} alt="img-with-text" />
 			  <h6>Liabilities</h6>
                 <p>Assistance with minimising your liabilities under CBAM by identifying suppliers with lower emissions.</p>
               </div>
@@ -136,8 +138,9 @@ const CbamDeclarantsMain = () => {
               </Link>
             </div>
 
-            <div className="col-lg-3 col-md-6 rounded border m-4 d-flex justify-content-between flex-column">
+            <div className="col-lg-4 col-md-6 rounded border d-flex justify-content-between flex-column">
               <div className="col-xl-12 p-4">
+              <img src={img2.src} alt="img-with-text" />
 			  <h6>Reporting</h6>
                 <p>A CBAM compliant and easy to use CBAM Reporting Tool that will access the ARTEM database of real data from the installations directly.</p>
               </div>
@@ -146,8 +149,9 @@ const CbamDeclarantsMain = () => {
               </Link>
             </div>
 
-            <div className="col-lg-3 col-md-6 rounded border m-4 d-flex justify-content-between flex-column">
+            <div className="col-lg-4 col-md-6 rounded border d-flex justify-content-between flex-column">
               <div className="col-xl-12 p-4">
+              <img src={img3.src} alt="img-with-text" />
 			  <h6>Communication  Support</h6>
                 <p>We provide assistance to help you communicating with suppliers and intermediaries to get the data you need fast.</p>
               </div>

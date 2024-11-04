@@ -16,7 +16,7 @@ const BannerOne = () => {
                 alt="banner-shape"
               />
               <div className="container">
-                <div className="row">
+                <div className="row"> 
                   <div className="col-xl-12 pt-120 text-center">
                     <div className={styles.banner__one_content}>
                       <h2 className="text-light pb-30">
