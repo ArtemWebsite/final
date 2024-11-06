@@ -1,5 +1,5 @@
 
-import bannerBg from "../../../public/assets/img/cbam-operator/banner.jpg";
+import bannerBg from "../../../public/assets/img/cems/banner.jpg";
 import Link from "next/link";
 import styles from "../homes/home/styles/BannerOne.module.css";
 

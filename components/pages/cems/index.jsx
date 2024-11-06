@@ -9,13 +9,15 @@ import ProductionRoutesTable from "../homes/home/production-example";
 import Bayer from "../homes/home/bayer";
 import BottomImage from "../homes/home/bottom-img";
 import "../homes/home/home.css";
+import BannerOne from "./cems-banner";
 
 const CEMS = () => {
   return (
     <>
-      <SEO pageTitle="Comming Soon" />
+      <SEO pageTitle=" Emission Monitoring Equipment" />
 
       <HeaderOne />
+      <BannerOne />
       <Technology />
       <div className="pt-40">
         <div className="container">

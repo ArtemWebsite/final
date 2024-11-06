@@ -10712,6 +10712,11 @@ p.textdata {
   border: 2px solid #d8f3ee;
   border-radius: 20px;
 }
+.bg-light-orange-artm {
+  border: 2px solid #FFB800;
+  background: #FEEFCC;
+  border-radius: 20px;
+}
 .bg-light-blue-artm {
   background-color: #f1f5f8;
   border: 2px solid #dde7ee;

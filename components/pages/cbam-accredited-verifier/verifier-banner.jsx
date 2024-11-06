@@ -1,5 +1,5 @@
 
-import bannerBg from "../../../public/assets/img/cbam-operator/banner.jpg";
+import bannerBg from "../../../public/assets/img/cbam-verifier/banner.jpg";
 import Link from "next/link";
 import styles from "../homes/home/styles/BannerOne.module.css";
 
@@ -20,44 +20,35 @@ const BannerOne = () => {
 <div className="col-xl-12 pt-120 text-center">
                     <div className={styles.banner__one_content}>
                       <h2 className="text-light pb-30">
-                      We Help Operators Globally to Measure and Calculate Emissions
+                      Widen your Customer  Network on a Global Scale
                       </h2>
                     </div>
                   </div>
 
-  <div className="col-lg-3 col-md-6 text-center">
+  <div className="col-lg-4 col-md-6 text-center">
     <div className={`${styles.banner__one_bg_content} h-100`}>
       <Link className="btn-four" href="/contact">
-        Track
+      Remote
       </Link>
-      <p>Track Carbon Certificate Price according to Current emission levels</p>
+      <p>reduce in-person work and receive data submission virtually</p>
     </div>
   </div>
 
-  <div className="col-lg-3 col-md-6 text-center">
+  <div className="col-lg-4 col-md-6 text-center">
     <div className={`${styles.banner__one_bg_content} h-100`}>
       <Link className="btn-four" href="/contact">
-        Trace
+      Virtual Verification
       </Link>
-      <p>Interoperability with your MES system to ensure visibility over your entire supply chain</p>
+      <p>Allow virtual verification through acess to intangible emission data points</p>
     </div>
   </div>
 
-  <div className="col-lg-3 col-md-6 text-center">
+  <div className="col-lg-4 col-md-6 text-center">
     <div className={`${styles.banner__one_bg_content} h-100`}>
       <Link className="btn-four" href="/contact">
-        Automate
+      Compliance
       </Link>
-      <p>Automatic data collection; no need for manual input</p>
-    </div>
-  </div>
-
-  <div className="col-lg-3 col-md-6 text-center">
-    <div className={`${styles.banner__one_bg_content} h-100`}>
-      <Link className="btn-four" href="/contact">
-        Verify
-      </Link>
-      <p>Verification and certification according to EU Standards</p>
+      <p>Increase Verification numbers and ensure better CBAM Compliance</p>
     </div>
   </div>
 
