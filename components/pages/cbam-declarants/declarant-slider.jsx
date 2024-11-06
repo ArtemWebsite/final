@@ -45,8 +45,8 @@ const DeclarantSlider = () => {
     <div className="declarant-slider">
       <Slider {...settings}>
         {images.map((image, index) => (
-          <div key={index} className="p-4">
-            <img src={image.src} alt={`slider-image-${index}`} className="img-fluid rounded" />
+          <div key={index} className="slider-image">
+            <img src={image.src} alt={`slider-image-${index}`} />
           </div>
         ))}
       </Slider>

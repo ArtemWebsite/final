@@ -14,10 +14,7 @@ const MainMenu = () => {
               <Link href="/cbam-declarants">CBAM Declarants </Link>
             </li>
             <li>
-              <Link href="/cbam-importer">CBAM Importer</Link>
-            </li>
-            <li>
-              <Link href="/cbam-installation">CBAM Installation</Link>
+              <Link href="/cbam-operator">CBAM Operator</Link>
             </li>
             <li>
               <Link href="/cbam-accredited-verifier">

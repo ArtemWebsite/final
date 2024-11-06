@@ -10705,7 +10705,7 @@ p.textdata {
   padding-right: 0;
 }
 .color-green-artm {
-  color: #74d5c2;
+  color: #189472;
 }
 .bg-light-green-artm {
   background-color: #effaf8;
@@ -10738,6 +10738,9 @@ p.textdata {
 }
 .bg-theme-green {
   background-color: #74d5c2;
+}
+.bg-theme-light-orange {
+  background: #FEEFCC;
 }
 .bg-light-red-artm {
   background-color: #ffe9e9;

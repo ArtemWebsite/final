@@ -6,13 +6,14 @@ import img3 from "../../../public/assets/img/cbam-declarants/photo3.png";
 import DeclarantSlider from "./declarant-slider";
 import BannerOne from "./declarants-banner";
 import Timeline from "./milestones";
+import { P } from "react-flaticons";
 
 const CbamDeclarantsMain = () => {
   return (
     <div className="cbam-importer-main">
       <BannerOne />
 
-      <div className="pt-60">
+      <div className="pt-60 pb-60">
         <div className="container">
           <div className="row">
             <div className="col-xl-12">
@@ -22,23 +23,31 @@ const CbamDeclarantsMain = () => {
         </div>
       </div>
 
-      <div className="container">
-        <div className="row">
-          <div className="col-lg-6 col-md-6 rounded">
+      <div className="bg-theme-green pt-80">
+      <div className="container pt-80 position-relative">
+        <div className="row w-100 position-absolute top-50 start-50 translate-middle z-3">
+          <div className="col-lg-5 col-md-6 m-4 bg-white">
             <div className="col-xl-12 p-4">
-              <p className="text-center">
-                Reporting Declarants importing into the EU will need to account for the carbon emissions associated with any CBAM Goods imported.
+              <p>
+              Real data
               </p>
+              <ul><li>
+              Obtain real emission data from your suppliers collected in accordance with the CBAM Regulations.
+                </li></ul>
             </div>
           </div>
-          <div className="col-lg-6 col-md-6 rounded">
+          <div className="col-lg-5 col-md-6 m-4 bg-white">
             <div className="col-xl-12 p-4">
-              <p className="text-center">
-                Reporting Declarants will need to have the data in their reports verified. Non-compliant reporting, or a failure to verify data may lead to penalties.
+            <p>
+            Protection from Liability
               </p>
+              <ul><li>
+              Data that you can trust, gathered in accordance with the CBAM Regulations.
+                </li></ul>
             </div>
           </div>
         </div>
+      </div>
       </div>
       <DeclarantSlider />
 
@@ -129,37 +138,37 @@ const CbamDeclarantsMain = () => {
             </div>
       </div>
         <div className="row">
-            <div className="col-lg-4 col-md-6 rounded border d-flex justify-content-between flex-column">
-              <div className="col-xl-12 p-4">
+            <div className="col-lg-4 col-md-6">
+              <div className="p-4 rounded border d-flex justify-content-between flex-column col-xl-12">
               <img src={img1.src} alt="img-with-text" />
-			  <h6>Liabilities</h6>
+			  <h6 className="color-green-artm">Liabilities</h6>
                 <p>Assistance with minimising your liabilities under CBAM by identifying suppliers with lower emissions.</p>
-              </div>
               <Link href="/contact" className="btn-five">
                 Learn More
               </Link>
+              </div>
             </div>
 
-            <div className="col-lg-4 col-md-6 rounded border d-flex justify-content-between flex-column">
-              <div className="col-xl-12 p-4">
+            <div className="col-lg-4 col-md-6">
+              <div className="p-4 rounded border d-flex justify-content-between flex-column">
               <img src={img2.src} alt="img-with-text" />
-			  <h6>Reporting</h6>
+              <h6 className="color-green-artm">Reporting</h6>
                 <p>A CBAM compliant and easy to use CBAM Reporting Tool that will access the ARTEM database of real data from the installations directly.</p>
-              </div>
               <Link href="/contact" className="btn-five">
                 Learn More
               </Link>
+              </div>
             </div>
 
-            <div className="col-lg-4 col-md-6 rounded border d-flex justify-content-between flex-column">
-              <div className="col-xl-12 p-4">
+            <div className="col-lg-4 col-md-6">
+              <div className="p-4 rounded border d-flex justify-content-between flex-column">
               <img src={img3.src} alt="img-with-text" />
-			  <h6>Communication  Support</h6>
+              <h6 className="color-green-artm">Communication  Support</h6>
                 <p>We provide assistance to help you communicating with suppliers and intermediaries to get the data you need fast.</p>
-              </div>
               <Link href="/contact" className="btn-five">
                 Learn More
               </Link>
+              </div>
             </div>
 
           </div>
