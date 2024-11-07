@@ -18,17 +18,15 @@ const ResponsiveMenu = () => {
     <ul>
       {/* Why ARTEM Menu */}
       <li className="menu-item">
-        <Link href="#">Why ARTEM</Link>
+        <Link href="#">ARTEM Solution</Link>
         <ul className="sub-menu" style={activeSubMenuStyle("why-artem")}>
           <li>
             <Link href="/cbam-declarants">CBAM Declarants</Link>
           </li>
           <li>
-            <Link href="/cbam-importer">CBAM Importer</Link>
+            <Link href="/cbam-operator">CBAM Operator</Link>
           </li>
-          <li>
-            <Link href="/cbam-installation">CBAM Installation</Link>
-          </li>
+
           <li>
             <Link href="/cbam-accredited-verifier">
               CBAM accredited Verifier
@@ -38,7 +36,9 @@ const ResponsiveMenu = () => {
         {/* This button toggles the dropdown */}
         <a
           href="#"
-          className={`mean-expand ${isMenuActive("why-artem") ? "mean-clicked" : ""}`}
+          className={`mean-expand ${
+            isMenuActive("why-artem") ? "mean-clicked" : ""
+          }`}
           onClick={() => toggleMenu("why-artem")}
         >
           &#x25BC;
@@ -47,25 +47,27 @@ const ResponsiveMenu = () => {
 
       {/* CBAM Menu */}
       <li className="menu-item">
-        <Link href="#">CBAM</Link>
-        <ul className="sub-menu" style={activeSubMenuStyle("cbam")}>
+        <Link href="/cems">Emission Monitoring Equipment</Link>
+        {/* <ul className="sub-menu" style={activeSubMenuStyle("cbam")}>
           <li>
             <Link href="/cbam">What is CBAM</Link>
           </li>
         </ul>
         <a
           href="#"
-          className={`mean-expand ${isMenuActive("cbam") ? "mean-clicked" : ""}`}
+          className={`mean-expand ${
+            isMenuActive("cbam") ? "mean-clicked" : ""
+          }`}
           onClick={() => toggleMenu("cbam")}
         >
           &#x25BC;
-        </a>
+        </a> */}
       </li>
 
       {/* Product Menu */}
       <li className="menu-item">
-        <Link href="#">Product</Link>
-        <ul className="sub-menu" style={activeSubMenuStyle("product")}>
+        <Link href="#">Regulations</Link>
+        {/* <ul className="sub-menu" style={activeSubMenuStyle("product")}>
           <li>
             <Link href="#">CBAM Reporting</Link>
           </li>
@@ -81,33 +83,37 @@ const ResponsiveMenu = () => {
         </ul>
         <a
           href="#"
-          className={`mean-expand ${isMenuActive("product") ? "mean-clicked" : ""}`}
+          className={`mean-expand ${
+            isMenuActive("product") ? "mean-clicked" : ""
+          }`}
           onClick={() => toggleMenu("product")}
         >
           &#x25BC;
-        </a>
+        </a> */}
       </li>
 
       {/* About Us Menu */}
       <li className="menu-item">
-        <Link href="#">About Us</Link>
-        <ul className="sub-menu" style={activeSubMenuStyle("about-us")}>
+        <Link href="/about">About Us</Link>
+        {/* <ul className="sub-menu" style={activeSubMenuStyle("about-us")}>
           <li>
             <Link href="/team">Team</Link>
           </li>
         </ul>
         <a
           href="#"
-          className={`mean-expand ${isMenuActive("about-us") ? "mean-clicked" : ""}`}
+          className={`mean-expand ${
+            isMenuActive("about-us") ? "mean-clicked" : ""
+          }`}
           onClick={() => toggleMenu("about-us")}
         >
           &#x25BC;
-        </a>
+        </a> */}
       </li>
 
       {/* Contact Menu */}
       <li className="menu-item">
-        <Link href="/contact">Contact</Link>
+        <Link href="/contact">Request a Demo</Link>
       </li>
     </ul>
   );

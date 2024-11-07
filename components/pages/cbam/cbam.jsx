@@ -82,7 +82,25 @@ const CBAM = () => {
         </div>
     </section>
 	 
-	  
+	  <section>
+    <div className="pt-120">
+    <div className="container">
+          <div className="row mb-35">
+            <div className="col-xl-12">
+                <h2 className="mb-md-5 text-center mb-3">How Much Goods are Affected by CBAM?</h2>
+            </div>
+          </div>
+          <div className="row mb-35">
+          <div className="col-xl-8 mx-auto p-5" style={{ background: "#EAF4F3" }}>
+  <p>
+    US $45 Billion of CBAM covered goods were exported to Europe from Asia-Pacific in 2022, representing 4 percent of total exports from the region.
+  </p>
+  <p>— Goldman Sachs</p>
+</div>
+          </div>
+          </div>
+    </div>
+    </section>
     </div>
   );
 };

@@ -56,7 +56,7 @@ const FooterOne = () => {
       >
         <div className="container">
           <div className="row">
-            <div className="col-lg-4 col-md-5 lg-mb-33">
+            <div className="col-lg-5 col-md-5 ">
               <div className="footer__area-widget">
                 <div className="logo">
                   <Link href="/">
@@ -65,39 +65,38 @@ const FooterOne = () => {
                 </div>
                 <div className="footer__area-widget-company">
                   <p>
-                   
                     Artem Technology Limited (Hong Kong)
-                      <br />
-                      Unit C, 7/F, Queen’s Centre,
-                      <br />
-                      58-64 Queen’s Road East,
-                      <br />
-                      Hong Kong SAR
-                    <br/>
+                    <br />
+                    Unit C, 7/F, Queen’s Centre,
+                    <br />
+                    <br />
+                    58-64 Queen’s Road East,
+                    <br />
+                    Hong Kong SAR
+                    <br />
+                    <br />
                     ARTEM Technologie AG (Switzerland)
-                    <br/>
+                    <br />
                     Sinserstraße 67, 6770 Cham Zug, Switzerland
                   </p>
                   <div className="social__icon mt-60"></div>
                 </div>
               </div>
             </div>
-            <div className="col-lg-8 col-md-7">
+            <div className="col-lg-7 col-md-7 d-flex justify-content-end align-items-center">
+              <a class="btn-three mb-5" href="/contact">
+                Request a Demo
+              </a>
+            </div>
+            {/* <div className="col-lg-8 col-md-7">
               <div className="row">
                 <div className="col-sm-6 col-12 sm-mt-33">
                   <div className="footer__area-widget">
-                  
                     <div className="footer__area-widget-info mb-35">
-                    <ul>
-                        <li>
-                        Impressum 
-                        </li>
-                        <li>
-                        Data Protection
-                        </li>
-                        <li>
-                        Downloads
-                        </li>
+                      <ul>
+                        <li>Impressum</li>
+                        <li>Data Protection</li>
+                        <li>Downloads</li>
                       </ul>
                     </div>
                   </div>
@@ -121,8 +120,7 @@ const FooterOne = () => {
                   </div>
                 </div>
               </div>
-            </div>
-    
+            </div> */}
           </div>
         </div>
         <div className="copyright__area lg-t-center">

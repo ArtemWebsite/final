@@ -40,8 +40,8 @@ const BannerOne = () => {
                 <div className="row">
                   <div className="col-xl-12 pt-120 text-center">
                     <div className={styles.banner__one_content}>
-                      <h2 className="text-light pb-100">
-                        We Built the Infrastructure for Global Carbon Pricing
+                      <h2 className="text-light pb-100 width-narrow">
+                        We Built the Infrastructure for Global Carbon Pricing.
                       </h2>
                       <p className="main_banner_inner_text">
                         We <span>Collect</span> the real emission data from your
@@ -61,6 +61,7 @@ const BannerOne = () => {
           </SwiperSlide>
         </Swiper>
       </div>
+      <div className="banner-bottom"></div>
     </>
   );
 };

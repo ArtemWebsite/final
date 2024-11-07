@@ -4,13 +4,13 @@ import img1 from "../../../../public/assets/img/cbam/home-bottom-img.png";
 const BottomImage = () => {
   return (
     <>
-      <div className="certificate section-padding pt-60">
+      <div className="certificate section-padding pt-0">
         <div className="container">
           <div className="row al-center">
             <div className="col-xl-12 text-center">
             <div className="mb-5">
                 <h2 className="mb-5">
-                CEMS Data Collection and Monitoring System
+                CEMS <span className="color-green-artm">Data</span> Collection and <span className="color-green-artm">Monitoring</span> System
                 </h2>
               </div>
             </div>
