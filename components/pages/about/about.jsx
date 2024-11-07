@@ -6,6 +6,7 @@ import f3 from "../../../public/assets/img/about/HK.png";
 import f4 from "../../../public/assets/img/about/china.png";
 import f5 from "../../../public/assets/img/about/us.png";
 import f6 from "../../../public/assets/img/about/australia.png";
+import nanxi from "../../../public/assets/img/about/photo.png";
 
 const AboutMain = () => {
   return (
@@ -24,13 +25,20 @@ const AboutMain = () => {
                 className="col-xl-8 mx-auto p-5 border rounded-2"
                 style={{ background: "#EAF4F3" }}
               >
-                <p>
-                  We aim to provide a comprehensive technological solution that
-                  combats carbon leakage, enables CBAM compliance and
-                  facilitates the transition to net zero manufacturing on a
-                  global scale
-                </p>
-                <p>— Nanxi Ding, CEO</p>
+                <div className="row">
+                  <div className="col-lg-4 col-md-6">
+                    <img src={nanxi.src} alt="img-with-text" />
+                  </div>
+                  <div className="col-lg-8 col-md-6">
+                    <p>
+                      We aim to provide a comprehensive technological solution
+                      that combats carbon leakage, enables CBAM compliance and
+                      facilitates the transition to net zero manufacturing on a
+                      global scale
+                    </p>
+                    <p>— Nanxi Ding, CEO</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -91,9 +99,9 @@ const AboutMain = () => {
         <section>
           <div className="container mx-auto pt-120">
             <div className="row d-flex align-items-stretch">
-              <div className="col-xl-8 mx-auto">
+              <div className="col-xl-10 mx-auto">
                 <div className="row">
-                  <div className="col-lg-5 col-md-6 mx-4 border shadow rounded-2 mb-5">
+                  <div className="col-lg-5 p-4 col-md-6 mx-4 border shadow rounded-2 mb-5">
                     <div className="row">
                       <div className="col-lg-10 col-md-6">
                         <p>
@@ -107,7 +115,7 @@ const AboutMain = () => {
                     </div>
                   </div>
 
-                  <div className="col-lg-5 col-md-6 mx-4 border shadow rounded-2 mb-5">
+                  <div className="col-lg-5 p-4  col-md-6 mx-4 border shadow rounded-2 mb-5">
                     <div className="row">
                       <div className="col-lg-10 col-md-6">
                         <p>
@@ -124,7 +132,7 @@ const AboutMain = () => {
                     </div>
                   </div>
 
-                  <div className="col-lg-5 col-md-6 mx-4 border shadow rounded-2 mb-5">
+                  <div className="col-lg-5 p-4  col-md-6 mx-4 border shadow rounded-2 mb-5">
                     <div className="row">
                       <div className="col-lg-10 col-md-6">
                         <p>
@@ -138,7 +146,7 @@ const AboutMain = () => {
                     </div>
                   </div>
 
-                  <div className="col-lg-5 col-md-6 mx-4 border shadow rounded-2 mb-5">
+                  <div className="col-lg-5 p-4  col-md-6 mx-4 border shadow rounded-2 mb-5">
                     <div className="row">
                       <div className="col-lg-10 col-md-6">
                         <p>
