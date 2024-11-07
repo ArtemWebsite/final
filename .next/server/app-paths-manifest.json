@@ -1,6 +1,4 @@
 {
-  "/page": "app/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/cbam-declarants/page": "app/cbam-declarants/page.js",
-  "/cbam-operator/page": "app/cbam-operator/page.js"
+  "/cbam/page": "app/cbam/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js"
 }

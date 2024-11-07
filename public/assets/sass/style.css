@@ -10736,7 +10736,7 @@ p.textdata {
   width: 12px;
 }
 .bg-theme-blue {
-  background-color: #1f3042;
+  background-color: #233041;
 }
 .color-theme-blue {
   color: #1f3042;
@@ -10782,23 +10782,17 @@ p.textdata {
 /* Custom styling for the table */
 .custom-table {
   width: 100%;
-  border-collapse: separate;
   overflow: hidden;
-  border-spacing: 20px;
 }
 
 .custom-table thead th {
-  background: linear-gradient(90deg, #233a51 0%, #4e6a83 100%);
-  color: #fff;
+  color: #000000;
   font-weight: bold;
-  padding: 1rem;
-  font-size: 1.2rem;
-  border-radius: 20px;
   text-align: center;
+  background: #8ED3C0;
 }
 .custom-table-green tr td {
-  background: #effaf8;
-  border: 2px solid #d8f3ee;
+  border: 1px solid #d8f3ee;
 }
 .custom-table-green thead th {
   background: #74d5c2;
@@ -10828,35 +10822,14 @@ p.textdata {
 
 .custom-table th,
 .custom-table td {
-  padding: 15px;
-  font-size: 1rem;
-  text-align: left;
   vertical-align: middle;
 }
 
-.custom-table tbody tr:nth-child(even) {
-  background-color: #effaf8; /* Light green */
-}
-
-.custom-table tbody tr:nth-child(odd) {
-  background-color: #effaf8; /* Light green */
-}
 .custom-table td {
-  font-weight: 500;
-  background: #f1f5f8;
-  border: 2px solid #dde7ee;
-  border-radius: 20px;
+  border: 1px solid #959595;
   text-align: center;
 }
 
-.custom-table td:first-child {
-  font-weight: bold;
-  color: #233a51;
-}
-
-.custom-table tbody td {
-  font-size: 0.95rem;
-}
 /* Styling for the circular icons */
 .circle {
   display: inline-block;
@@ -10882,15 +10855,7 @@ p.textdata {
   background-color: #ffba08;
 }
 @media (max-width: 768px) {
-  .custom-table th,
-  .custom-table td {
-    padding: 10px;
-    font-size: 0.9rem;
-  }
 
-  .custom-table thead th {
-    font-size: 1rem;
-  }
   .btn-one,
   .btn-three,
   .btn-two {
