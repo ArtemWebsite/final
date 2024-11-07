@@ -556,6 +556,7 @@ h6 {
   text-transform: uppercase;
   font-weight: 500;
   border-radius: 30px;
+  margin-bottom: 20px;
 }
 .btn-five {
   background: #cce7e0;
@@ -10969,9 +10970,13 @@ p.stack_paragraph {
   width: 100%;
   padding: 0;
   margin: 0;
+  flex-direction: row;
+  flex-wrap: nowrap;
 }
-
 .min-height-card {
   min-height: 35rem;
 }
 
+svg.checkIcon {
+  margin-right: 8px;
+}

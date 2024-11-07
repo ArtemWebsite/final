@@ -19,7 +19,7 @@ const BannerOne = () => {
 
 <div className="col-xl-12 pt-120 text-center">
                     <div className={styles.banner__one_content}>
-                      <h2 className="text-light pb-30">
+                      <h2 className="text-light pb-30 width-narrow">
                       We Help Operators Globally to Measure and Calculate Emissions
                       </h2>
                     </div>
@@ -27,36 +27,36 @@ const BannerOne = () => {
 
   <div className="col-lg-3 col-md-6 text-center">
     <div className={`${styles.banner__one_bg_content} h-100`}>
-      <Link className="btn-four" href="/contact">
+      <div className="btn-four" >
         Track
-      </Link>
+      </div>
       <p>Track Carbon Certificate Price according to Current emission levels</p>
     </div>
   </div>
 
   <div className="col-lg-3 col-md-6 text-center">
     <div className={`${styles.banner__one_bg_content} h-100`}>
-      <Link className="btn-four" href="/contact">
+    <div className="btn-four" >
         Trace
-      </Link>
+        </div>
       <p>Interoperability with your MES system to ensure visibility over your entire supply chain</p>
     </div>
   </div>
 
   <div className="col-lg-3 col-md-6 text-center">
     <div className={`${styles.banner__one_bg_content} h-100`}>
-      <Link className="btn-four" href="/contact">
+    <div className="btn-four" >
         Automate
-      </Link>
+        </div>
       <p>Automatic data collection; no need for manual input</p>
     </div>
   </div>
 
   <div className="col-lg-3 col-md-6 text-center">
     <div className={`${styles.banner__one_bg_content} h-100`}>
-      <Link className="btn-four" href="/contact">
+    <div className="btn-four" >
         Verify
-      </Link>
+        </div>
       <p>Verification and certification according to EU Standards</p>
     </div>
   </div>
