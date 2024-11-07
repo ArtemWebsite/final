@@ -18,7 +18,7 @@ const HomeMulticoulmn = () => {
                   className="img-fluid rounded"
                 />
                 <div className="overlay-text">
-                  <h5 className="text-center text-white">{data.title}</h5>
+                  {/* <h5 className="text-center text-white">{data.title}</h5> */}
                 </div>
               </div>
             </div>

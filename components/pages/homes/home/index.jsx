@@ -55,14 +55,7 @@ const HomeOne = () => {
       <BannerOne />
       <HomeMulticoulmn />
       <HomeStackedCoulmn />
-      {/* OLD DATA HIDE
-      <Features />
-      <About />
-      <Certificate />
-      <Technology />
 
-      <ArtemPioneer />
-      <BottomImage />*/}
 
       <FooterOne />
       <ScrollToTop />

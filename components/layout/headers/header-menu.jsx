@@ -24,17 +24,17 @@ const MainMenu = () => {
           </ul>
         </li>
 
-        <li className="menu-item-has-children">
+        <li className="menu-item">
           <Link className="text-white" href="/cems">
             Emission Monitoring Equipment
           </Link>
         </li>
-        <li className="menu-item-has-children">
+        <li className="menu-item">
           <Link className="text-white" href="/cbam">
             Regulations
           </Link>
         </li>
-        <li className="menu-item-has-children">
+        <li className="menu-item">
           <Link className="text-white" href="/about-us">
             About Us
           </Link>

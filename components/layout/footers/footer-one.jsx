@@ -84,7 +84,7 @@ const FooterOne = () => {
               </div>
             </div>
             <div className="col-lg-7 col-md-7 d-flex justify-content-end align-items-center">
-              <a class="btn-three mb-5" href="/contact">
+              <a className="btn-three mb-5" href="/contact">
                 Request a Demo
               </a>
             </div>

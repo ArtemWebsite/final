@@ -17,7 +17,7 @@ const CbamDeclarantsMain = () => {
         <div className="container">
           <div className="row">
             <div className="col-xl-12">
-              <h2 className="text-center">Declarant’s Challenges</h2>
+              <h3 className="text-center">Declarant’s Challenges</h3>
             </div>
           </div>
         </div>
@@ -26,8 +26,8 @@ const CbamDeclarantsMain = () => {
       <div className="bg-theme-green pt-80">
         <div className="container pt-80 position-relative">
           <div className="row w-100 position-absolute top-50 start-50 translate-middle z-3">
-            <div className="col-lg-5 col-md-6 m-4 bg-white">
-              <div className="col-xl-12 p-4">
+            <div className="col-lg-5 col-md-6 m-4 bg-white rounded-2">
+              <div className="col-xl-12 p-4 rounded-2">
                 <p>
                   <Check /> Real data
                 </p>
@@ -39,7 +39,7 @@ const CbamDeclarantsMain = () => {
                 </ul>
               </div>
             </div>
-            <div className="col-lg-5 col-md-6 m-4 bg-white">
+            <div className="col-lg-5 col-md-6 m-4 bg-white rounded-2">
               <div className="col-xl-12 p-4">
                 <p>
                   <Check /> Protection from Liability
@@ -61,7 +61,7 @@ const CbamDeclarantsMain = () => {
         <div className="container">
           <div className="row">
             <div className="col-xl-12">
-              <h2 className="text-center">CBAM Timeline</h2>
+              <h3 className="text-center">CBAM Timeline</h3>
             </div>
           </div>
           <Timeline />
@@ -74,11 +74,11 @@ const CbamDeclarantsMain = () => {
             <div className="col-xl-12">
               <div className="service__one-title t-center">
                 <span className="subtitle-one">&nbsp;</span>
-                <h2 className="mb-md-5 text-center">Key Functionalities</h2>
+                <h3 className="mb-md-5 text-center">Key Functionalities</h3>
               </div>
             </div>
           </div>
-          <div className="row">
+          <div className="row justify-content-center">
             <div className="col-lg-5 col-md-6 rounded border shadow-sm m-4 d-flex justify-content-between flex-column pl-0 pr-0">
               <div className="col-xl-12 p-4">
                 <p>
@@ -151,10 +151,10 @@ const CbamDeclarantsMain = () => {
         <div className="container">
           <div className="row align-center">
             <div className="col-xl-12">
-              <h2 className="mb-5 text-center">
+              <h3 className="mb-5 text-center width-narrow">
                 Industry-Tested Solutions to Meet Your Needs
-              </h2>
-              <p className="text-center">
+              </h3>
+              <p className="text-center width-narrow pb-50" style={{color:"#B4B4B4"}}>
                 With over 30 years of experience in the manufacturing sector,
                 the team at ARTEM are perfectly placed to assist you with
                 complying with the CBAM requirements.
@@ -163,13 +163,15 @@ const CbamDeclarantsMain = () => {
           </div>
           <div className="row">
             <div className="col-lg-4 col-md-6">
-              <div className="p-4 rounded border shadow-sm d-flex justify-content-between flex-column col-xl-12">
+              <div className="rounded border shadow-sm d-flex justify-content-between flex-column col-xl-12">
+              <div className="p-4 min-height-card">
                 <img src={img1.src} alt="img-with-text" />
-                <h6 className="color-green-artm">Liabilities</h6>
+                <h6 className="color-green-artm mt-20 mb-10">Liabilities</h6>
                 <p>
                   Assistance with minimising your liabilities under CBAM by
                   identifying suppliers with lower emissions.
                 </p>
+                </div>
                 <Link href="/contact" className="btn-five">
                   Learn More
                 </Link>
@@ -177,14 +179,16 @@ const CbamDeclarantsMain = () => {
             </div>
 
             <div className="col-lg-4 col-md-6">
-              <div className="p-4 rounded border shadow-sm d-flex justify-content-between flex-column">
+              <div className="rounded border shadow-sm d-flex justify-content-between flex-column">
+              <div className="p-4 min-height-card">
                 <img src={img2.src} alt="img-with-text" />
-                <h6 className="color-green-artm">Reporting</h6>
+                <h6 className="color-green-artm mt-20 mb-10">Reporting</h6>
                 <p>
                   A CBAM compliant and easy to use CBAM Reporting Tool that will
                   access the ARTEM database of real data from the installations
                   directly.
                 </p>
+                </div>
                 <Link href="/contact" className="btn-five">
                   Learn More
                 </Link>
@@ -192,13 +196,15 @@ const CbamDeclarantsMain = () => {
             </div>
 
             <div className="col-lg-4 col-md-6">
-              <div className="p-4 rounded border shadow-sm d-flex justify-content-between flex-column">
+              <div className="rounded border shadow-sm d-flex justify-content-between flex-column">
+                <div className="p-4 min-height-card">
                 <img src={img3.src} alt="img-with-text" />
-                <h6 className="color-green-artm">Communication Support</h6>
+                <h6 className="color-green-artm mt-20 mb-10">Communication Support</h6>
                 <p>
                   We provide assistance to help you communicating with suppliers
                   and intermediaries to get the data you need fast.
                 </p>
+                </div>
                 <Link href="/contact" className="btn-five">
                   Learn More
                 </Link>
