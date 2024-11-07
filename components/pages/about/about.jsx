@@ -16,7 +16,7 @@ const AboutMain = () => {
           <div className="container">
             <div className="row mb-35">
               <div className="col-xl-12 text-center">
-                <h2 className="mb-md-5 text-center mb-5">About us</h2>
+                <h3 className="mb-md-5 text-center mb-5">About us</h3>
                 <p>ARTEM is about more than just compliance</p>
               </div>
             </div>

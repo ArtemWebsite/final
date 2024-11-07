@@ -21,7 +21,7 @@ const CEMS = () => {
       <div className="container">
       <div className="row">
             <div className="col-xl-12 pb-5">
-              <h2 className="text-center">Specifications and Conditions</h2>
+              <h3 className="text-center">Specifications and Conditions</h3>
             </div>
           </div>
 		  

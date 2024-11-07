@@ -12,7 +12,7 @@ const AboutUs = () => {
   return (
     <>
       <SEO pageTitle="About Us" />
-      <SwitchTab />
+     
       <HeaderOne />
       <BannerOne />
       <BannerBottom />

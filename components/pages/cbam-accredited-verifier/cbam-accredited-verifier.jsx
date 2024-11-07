@@ -1,8 +1,7 @@
 import React from "react";
-import Link from "next/link";
-import tick from "../../../public/assets/img/icon/tick.png";
-import BannerOne from "./verifier-banner";
 
+import BannerOne from "./verifier-banner";
+import Check from "@/components/items/check";
 const CBAMAccreditedVerifierMain = () => {
   return (
     <div className="cbam-verifier-main">
@@ -17,7 +16,7 @@ const CBAMAccreditedVerifierMain = () => {
                 <h2 className="mb-md-5 text-center mb-3">
                   Our Key Functionalities
                 </h2>
-                <p>
+                <p className="text-center width-narrow pb-30" style={{color: "rgb(180, 180, 180)"}}>
                   ARTEM provides a one stop solution to verifiers to project
                   manage the whole verification process, especially in places
                   that are far away and have high cultural and language
@@ -26,15 +25,11 @@ const CBAMAccreditedVerifierMain = () => {
               </div>
             </div>
           </div>
-          <div className="row">
+          <div className="row row justify-content-center">
             <div className="col-lg-5 col-md-6 rounded border shadow-sm m-4 d-flex justify-content-between flex-column">
               <div className="col-xl-12 p-4">
                 <p className="d-flex align-items-center">
-                  <img
-                    src={tick.src}
-                    alt="icon"
-                    style={{ width: "32px", height: "32px" }}
-                  />
+                <Check />
                   <strong>Onboarding</strong>
                 </p>
                 <p>
@@ -47,11 +42,7 @@ const CBAMAccreditedVerifierMain = () => {
             <div className="col-lg-5 col-md-6 rounded border shadow-sm m-4 d-flex justify-content-between flex-column">
               <div className="col-xl-12 p-4">
                 <p className="d-flex align-items-center">
-                  <img
-                    src={tick.src}
-                    alt="icon"
-                    style={{ width: "32px", height: "32px" }}
-                  />
+                <Check />
                   <strong>Precise</strong>
                 </p>
                 <p>
@@ -64,11 +55,7 @@ const CBAMAccreditedVerifierMain = () => {
             <div className="col-lg-5 col-md-6 rounded border shadow-sm m-4 d-flex justify-content-between flex-column">
               <div className="col-xl-12 p-4">
                 <p className="d-flex align-items-center">
-                  <img
-                    src={tick.src}
-                    alt="icon"
-                    style={{ width: "32px", height: "32px" }}
-                  />
+                <Check />
                   <strong>Security</strong>
                 </p>
                 <p>
@@ -81,11 +68,7 @@ const CBAMAccreditedVerifierMain = () => {
             <div className="col-lg-5 col-md-6 rounded border shadow-sm m-4 d-flex justify-content-between flex-column">
               <div className="col-xl-12 p-4">
                 <p className="d-flex align-items-center">
-                  <img
-                    src={tick.src}
-                    alt="icon"
-                    style={{ width: "32px", height: "32px" }}
-                  />
+                <Check />
                   <strong>Efficiency</strong>
                 </p>
                 <p>
@@ -98,11 +81,7 @@ const CBAMAccreditedVerifierMain = () => {
             <div className="col-lg-5 col-md-6 rounded border shadow-sm m-4 d-flex justify-content-between flex-column">
               <div className="col-xl-12 p-4">
                 <p className="d-flex align-items-center">
-                  <img
-                    src={tick.src}
-                    alt="icon"
-                    style={{ width: "32px", height: "32px" }}
-                  />
+                <Check />
                   <strong>automation</strong>
                 </p>
                 <p>
@@ -115,11 +94,7 @@ const CBAMAccreditedVerifierMain = () => {
             <div className="col-lg-5 col-md-6 rounded border shadow-sm m-4 d-flex justify-content-between flex-column">
               <div className="col-xl-12 p-4">
                 <p className="d-flex align-items-center">
-                  <img
-                    src={tick.src}
-                    alt="icon"
-                    style={{ width: "32px", height: "32px" }}
-                  />
+                <Check />
                   <strong>Roles and Responsibilities</strong>
                 </p>
                 <p>smart contracts to clairfy legal responsibility</p>

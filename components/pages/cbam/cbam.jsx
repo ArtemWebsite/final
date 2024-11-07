@@ -5,7 +5,7 @@ import "./cbam.css";
 import BannerOne from "./cbam-banner";
 import cbamImage2 from "../../../public/assets/img/cbam/cbam2.jpg";
 import tick from "../../../public/assets/img/icon/tick.png";
-
+import Check from "@/components/items/check";
 const CBAM = () => {
   return (
     <div className="main-container">
@@ -46,11 +46,7 @@ const CBAM = () => {
               <div className="col-lg-4 col-md-6">
                 <div className="p-4 rounded border shadow d-flex justify-content-between flex-column col-xl-12">
                   <p className="d-flex align-items-center">
-                    <img
-                      src={tick.src}
-                      alt="icon"
-                      style={{ width: "32px", height: "32px" }}
-                    />
+                  <Check/>
                     <strong>CBAM Obligations</strong>
                   </p>
                   <ul>
@@ -63,11 +59,7 @@ const CBAM = () => {
               <div className="col-lg-4 col-md-6">
                 <div className="p-4 rounded border shadow d-flex justify-content-between flex-column">
                   <p className="d-flex align-items-center">
-                    <img
-                      src={tick.src}
-                      alt="icon"
-                      style={{ width: "32px", height: "32px" }}
-                    />
+                  <Check/>
                     <strong>Scope of Applications</strong>
                   </p>
                   <ul>
@@ -80,11 +72,7 @@ const CBAM = () => {
               <div className="col-lg-4 col-md-6">
                 <div className="p-4 rounded border shadow d-flex justify-content-between flex-column">
                   <p className="d-flex align-items-center">
-                    <img
-                      src={tick.src}
-                      alt="icon"
-                      style={{ width: "32px", height: "32px" }}
-                    />
+                  <Check/>
                     <strong>CBAM Impact</strong>
                   </p>
                   <ul>
@@ -103,9 +91,9 @@ const CBAM = () => {
           <div className="container">
             <div className="row mb-35">
               <div className="col-xl-12">
-                <h2 className="mb-md-5 text-center mb-3">
+                <h3 className="mb-md-5 text-center mb-3">
                   How Much Goods are Affected by CBAM?
-                </h2>
+                </h3>
               </div>
             </div>
             <div className="row mb-35">
@@ -128,9 +116,9 @@ const CBAM = () => {
           <div className="container">
             <div className="row mb-35">
               <div className="col-xl-12">
-                <h2 className="mb-md-5 text-center mb-3">
+                <h3 className="mb-md-5 text-center mb-3">
                   Why is ARTEM Necessary for Everyone Affected by CBAM?
-                </h2>
+                </h3>
               </div>
             </div>
             <div className="row mb-35">

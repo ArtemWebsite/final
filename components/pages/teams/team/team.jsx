@@ -7,7 +7,7 @@ const TeamMain = () => {
       <div className="team__two section-padding-three">
         <div className="container text-center">
           <div className="team__one-title t-center pb-50">
-            <h2>Our Leadership Team</h2>
+            <h3>Our Leadership Team</h3>
           </div>
           <p>
             With over 30 years of experience in the manufacturing sector, the

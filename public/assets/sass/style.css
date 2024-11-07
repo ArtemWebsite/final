@@ -10921,6 +10921,10 @@ div#google_translate_element {
   width: 70%;
   margin: 0 auto;
 }
+.width-narrow-new {
+  width: 90%;
+  margin: 0 auto;
+}
 
 .banner-bottom {
   background: #d9d9d9;

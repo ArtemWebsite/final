@@ -9,9 +9,9 @@ const BottomImage = () => {
           <div className="row al-center">
             <div className="col-xl-12 text-center">
             <div className="mb-5">
-                <h2 className="mb-5">
+                <h3 className="mb-5">
                 CEMS <span className="color-green-artm">Data</span> Collection and <span className="color-green-artm">Monitoring</span> System
-                </h2>
+                </h3>
               </div>
             </div>
             <div className="col-xl-12 text-center">
