@@ -10957,3 +10957,7 @@ p.stack_paragraph {
 .header__area-menubar-center-menu ul li a {
   text-transform: none;
 }
+
+.slick-slider {
+  overflow: hidden;
+}

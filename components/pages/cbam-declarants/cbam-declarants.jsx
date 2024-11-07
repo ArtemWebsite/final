@@ -7,7 +7,7 @@ import DeclarantSlider from "./declarant-slider";
 import BannerOne from "./declarants-banner";
 import Timeline from "./milestones";
 import { P } from "react-flaticons";
-
+import Check from "@/components/items/check";
 const CbamDeclarantsMain = () => {
   return (
     <div className="cbam-importer-main">
@@ -24,30 +24,36 @@ const CbamDeclarantsMain = () => {
       </div>
 
       <div className="bg-theme-green pt-80">
-      <div className="container pt-80 position-relative">
-        <div className="row w-100 position-absolute top-50 start-50 translate-middle z-3">
-          <div className="col-lg-5 col-md-6 m-4 bg-white">
-            <div className="col-xl-12 p-4">
-              <p>
-              Real data
-              </p>
-              <ul><li>
-              Obtain real emission data from your suppliers collected in accordance with the CBAM Regulations.
-                </li></ul>
+        <div className="container pt-80 position-relative">
+          <div className="row w-100 position-absolute top-50 start-50 translate-middle z-3">
+            <div className="col-lg-5 col-md-6 m-4 bg-white">
+              <div className="col-xl-12 p-4">
+                <p>
+                  <Check /> Real data
+                </p>
+                <ul>
+                  <li>
+                    Obtain real emission data from your suppliers collected in
+                    accordance with the CBAM Regulations.
+                  </li>
+                </ul>
+              </div>
             </div>
-          </div>
-          <div className="col-lg-5 col-md-6 m-4 bg-white">
-            <div className="col-xl-12 p-4">
-            <p>
-            Protection from Liability
-              </p>
-              <ul><li>
-              Data that you can trust, gathered in accordance with the CBAM Regulations.
-                </li></ul>
+            <div className="col-lg-5 col-md-6 m-4 bg-white">
+              <div className="col-xl-12 p-4">
+                <p>
+                  <Check /> Protection from Liability
+                </p>
+                <ul>
+                  <li>
+                    Data that you can trust, gathered in accordance with the
+                    CBAM Regulations.
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
-      </div>
       </div>
       <DeclarantSlider />
 
@@ -61,7 +67,6 @@ const CbamDeclarantsMain = () => {
           <Timeline />
         </div>
       </div>
-      
 
       <div className="section-padding">
         <div className="container">
@@ -74,9 +79,11 @@ const CbamDeclarantsMain = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-lg-5 col-md-6 rounded border m-4 d-flex justify-content-between flex-column">
+            <div className="col-lg-5 col-md-6 rounded border m-4 d-flex justify-content-between flex-column pl-0 pr-0">
               <div className="col-xl-12 p-4">
-                <p>ARTEM Reporting Solution</p>
+                <p>
+                  <Check /> ARTEM Reporting Solution
+                </p>
                 <ul>
                   <li>Manage your supplier's emission reports</li>
                   <li>Seamless integration with the EU Portal</li>
@@ -87,11 +94,16 @@ const CbamDeclarantsMain = () => {
               </Link>
             </div>
 
-            <div className="col-lg-5 col-md-6 rounded border m-4 d-flex justify-content-between flex-column">
+            <div className="col-lg-5 col-md-6 rounded border m-4 d-flex justify-content-between flex-column pl-0 pr-0">
               <div className="col-xl-12 p-4">
-                <p>Data you can trust</p>
+                <p>
+                  <Check /> Data you can trust
+                </p>
                 <ul>
-                  <li>Emissions data gathered in accordance with applicable ISO standards or calculated in accordance with CBAM Regulations</li>
+                  <li>
+                    Emissions data gathered in accordance with applicable ISO
+                    standards or calculated in accordance with CBAM Regulations
+                  </li>
                   <li>Tamper-proof technology for peace of mind</li>
                 </ul>
               </div>
@@ -100,9 +112,11 @@ const CbamDeclarantsMain = () => {
               </Link>
             </div>
 
-            <div className="col-lg-5 col-md-6 rounded border m-4 d-flex justify-content-between flex-column">
+            <div className="col-lg-5 col-md-6 rounded border m-4 d-flex justify-content-between flex-column pl-0 pr-0">
               <div className="col-xl-12 p-4">
-                <p>World's largest Suppliers</p>
+                <p>
+                  <Check /> World's largest Suppliers
+                </p>
                 <ul>
                   <li>Trusted by some of the World's largest producers</li>
                 </ul>
@@ -112,11 +126,16 @@ const CbamDeclarantsMain = () => {
               </Link>
             </div>
 
-            <div className="col-lg-5 col-md-6 rounded border m-4 d-flex justify-content-between flex-column">
+            <div className="col-lg-5 col-md-6 rounded border m-4 d-flex justify-content-between flex-column pl-0 pr-0">
               <div className="col-xl-12 p-4">
-                <p>Certified emissions data verification</p>
+                <p>
+                  <Check /> Certified emissions data verification
+                </p>
                 <ul>
-                  <li>All supporting documentation gathered to ensure that your emissions reports pass verification, every time</li>
+                  <li>
+                    All supporting documentation gathered to ensure that your
+                    emissions reports pass verification, every time
+                  </li>
                 </ul>
               </div>
               <Link href="/contact" className="btn-five">
@@ -131,46 +150,59 @@ const CbamDeclarantsMain = () => {
         <div className="container">
           <div className="row align-center">
             <div className="col-xl-12">
-              <h2 className="mb-5 text-center">Industry-Tested Solutions to Meet Your Needs</h2>
+              <h2 className="mb-5 text-center">
+                Industry-Tested Solutions to Meet Your Needs
+              </h2>
               <p className="text-center">
-                With over 30 years of experience in the manufacturing sector, the team at ARTEM are perfectly placed to assist you with complying with the CBAM requirements.
+                With over 30 years of experience in the manufacturing sector,
+                the team at ARTEM are perfectly placed to assist you with
+                complying with the CBAM requirements.
               </p>
             </div>
-      </div>
-        <div className="row">
+          </div>
+          <div className="row">
             <div className="col-lg-4 col-md-6">
               <div className="p-4 rounded border d-flex justify-content-between flex-column col-xl-12">
-              <img src={img1.src} alt="img-with-text" />
-			  <h6 className="color-green-artm">Liabilities</h6>
-                <p>Assistance with minimising your liabilities under CBAM by identifying suppliers with lower emissions.</p>
-              <Link href="/contact" className="btn-five">
-                Learn More
-              </Link>
+                <img src={img1.src} alt="img-with-text" />
+                <h6 className="color-green-artm">Liabilities</h6>
+                <p>
+                  Assistance with minimising your liabilities under CBAM by
+                  identifying suppliers with lower emissions.
+                </p>
+                <Link href="/contact" className="btn-five">
+                  Learn More
+                </Link>
               </div>
             </div>
 
             <div className="col-lg-4 col-md-6">
               <div className="p-4 rounded border d-flex justify-content-between flex-column">
-              <img src={img2.src} alt="img-with-text" />
-              <h6 className="color-green-artm">Reporting</h6>
-                <p>A CBAM compliant and easy to use CBAM Reporting Tool that will access the ARTEM database of real data from the installations directly.</p>
-              <Link href="/contact" className="btn-five">
-                Learn More
-              </Link>
+                <img src={img2.src} alt="img-with-text" />
+                <h6 className="color-green-artm">Reporting</h6>
+                <p>
+                  A CBAM compliant and easy to use CBAM Reporting Tool that will
+                  access the ARTEM database of real data from the installations
+                  directly.
+                </p>
+                <Link href="/contact" className="btn-five">
+                  Learn More
+                </Link>
               </div>
             </div>
 
             <div className="col-lg-4 col-md-6">
               <div className="p-4 rounded border d-flex justify-content-between flex-column">
-              <img src={img3.src} alt="img-with-text" />
-              <h6 className="color-green-artm">Communication  Support</h6>
-                <p>We provide assistance to help you communicating with suppliers and intermediaries to get the data you need fast.</p>
-              <Link href="/contact" className="btn-five">
-                Learn More
-              </Link>
+                <img src={img3.src} alt="img-with-text" />
+                <h6 className="color-green-artm">Communication Support</h6>
+                <p>
+                  We provide assistance to help you communicating with suppliers
+                  and intermediaries to get the data you need fast.
+                </p>
+                <Link href="/contact" className="btn-five">
+                  Learn More
+                </Link>
               </div>
             </div>
-
           </div>
         </div>
       </div>

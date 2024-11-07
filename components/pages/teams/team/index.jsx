@@ -7,14 +7,11 @@ import FooterOne from "@/components/layout/footers/footer-one";
 import ScrollToTop from "../../common/scroll/scroll-to-top";
 import SwitchTab from "../../common/dark-light";
 
-
 const TeamPage = () => {
   return (
     <>
       <SEO pageTitle="Our Team" />
-
       <HeaderOne />
-
       <TeamMain />
       <FooterOne />
       <ScrollToTop />

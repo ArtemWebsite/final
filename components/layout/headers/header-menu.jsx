@@ -35,7 +35,7 @@ const MainMenu = () => {
           </Link>
         </li>
         <li className="menu-item-has-children">
-          <Link className="text-white" href="/team">
+          <Link className="text-white" href="/about-us">
             About Us
           </Link>
         </li>

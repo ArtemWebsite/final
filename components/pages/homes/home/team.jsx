@@ -6,12 +6,16 @@ const Team = () => {
     <>
       <div className="team__one ">
         <div className="container">
-          <div className="row mb-35">
+          <div className="row mb-35 text-center">
             <div className="col-xl-12">
-              <div className="team__one-title t-center">
-                <span className="subtitle-one">We're the best</span>
-                <h2>Our Core Team</h2>
+              <div className="team__one-title t-center pb-50">
+                <h2>Our Leadership Team</h2>
               </div>
+              <p>
+                With over 30 years of experience. in the manufacturing sector,
+                the team at ARTEM are perfectly placed to assist you with
+                complying with the CBAM requirements.
+              </p>
             </div>
           </div>
           <div className="row dark_image">

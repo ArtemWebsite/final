@@ -1,26 +1,26 @@
-"use client"
+"use client";
 import SEO from "@/components/data/seo";
 import HeaderOne from "@/components/layout/headers/header-one";
-import BreadCrumb from "../common/breadcrumb";
 import AboutMain from "./about";
 import ScrollToTop from "../common/scroll/scroll-to-top";
 import SwitchTab from "../common/dark-light";
 import FooterOne from "@/components/layout/footers/footer-one";
-import Features from "../homes/home/features";
+import BannerOne from "./about-banner";
+import BannerBottom from "./banner-bottom";
 
 const AboutUs = () => {
-    return (
-      <>
-        <SEO pageTitle="About Us" />
-        <SwitchTab />
-        <HeaderOne />
-        <BreadCrumb title="About Us" innerTitle="Company About" />
-        <Features />
-        <AboutMain />
-        <FooterOne />        
-        <ScrollToTop />
-      </>
-    );
+  return (
+    <>
+      <SEO pageTitle="About Us" />
+      <SwitchTab />
+      <HeaderOne />
+      <BannerOne />
+      <BannerBottom />
+      <AboutMain />
+      <FooterOne />
+      <ScrollToTop />
+    </>
+  );
 };
 
 export default AboutUs;
