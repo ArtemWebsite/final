@@ -44,7 +44,7 @@ const CBAM = () => {
           <div className="container">
             <div className="row">
               <div className="col-lg-4 col-md-6">
-                <div className="p-4 rounded border d-flex justify-content-between flex-column col-xl-12">
+                <div className="p-4 rounded border shadow d-flex justify-content-between flex-column col-xl-12">
                   <p className="d-flex align-items-center">
                     <img
                       src={tick.src}
@@ -61,7 +61,7 @@ const CBAM = () => {
               </div>
 
               <div className="col-lg-4 col-md-6">
-                <div className="p-4 rounded border d-flex justify-content-between flex-column">
+                <div className="p-4 rounded border shadow d-flex justify-content-between flex-column">
                   <p className="d-flex align-items-center">
                     <img
                       src={tick.src}
@@ -78,7 +78,7 @@ const CBAM = () => {
               </div>
 
               <div className="col-lg-4 col-md-6">
-                <div className="p-4 rounded border d-flex justify-content-between flex-column">
+                <div className="p-4 rounded border shadow d-flex justify-content-between flex-column">
                   <p className="d-flex align-items-center">
                     <img
                       src={tick.src}
@@ -110,7 +110,7 @@ const CBAM = () => {
             </div>
             <div className="row mb-35">
               <div
-                className="col-xl-8 mx-auto p-5 border rounded-2"
+                className="col-xl-8 mx-auto p-5 border shadow rounded-2"
                 style={{ background: "#EAF4F3" }}
               >
                 <p>
@@ -134,7 +134,7 @@ const CBAM = () => {
               </div>
             </div>
             <div className="row mb-35">
-              <div className="col-xl-8 mx-auto p-5 border rounded-2">
+              <div className="col-xl-8 mx-auto p-5 border shadow rounded-2">
                 <p>
                   Starting from OCTOBER 2024, THE IMPORTERS MUST SUBMIT THEIR
                   CBAM reports at the customs for each import based on primary

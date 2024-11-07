@@ -79,10 +79,10 @@ const CbamDeclarantsMain = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-lg-5 col-md-6 rounded border m-4 d-flex justify-content-between flex-column pl-0 pr-0">
+            <div className="col-lg-5 col-md-6 rounded border shadow-sm m-4 d-flex justify-content-between flex-column pl-0 pr-0">
               <div className="col-xl-12 p-4">
                 <p>
-                  <Check /> ARTEM Reporting Solution
+                  <Check /> <strong>ARTEM Reporting Solution</strong>
                 </p>
                 <ul>
                   <li>Manage your supplier's emission reports</li>
@@ -94,10 +94,10 @@ const CbamDeclarantsMain = () => {
               </Link>
             </div>
 
-            <div className="col-lg-5 col-md-6 rounded border m-4 d-flex justify-content-between flex-column pl-0 pr-0">
+            <div className="col-lg-5 col-md-6 rounded border shadow-sm m-4 d-flex justify-content-between flex-column pl-0 pr-0">
               <div className="col-xl-12 p-4">
                 <p>
-                  <Check /> Data you can trust
+                  <Check /> <strong>Data you can trust</strong>
                 </p>
                 <ul>
                   <li>
@@ -112,10 +112,10 @@ const CbamDeclarantsMain = () => {
               </Link>
             </div>
 
-            <div className="col-lg-5 col-md-6 rounded border m-4 d-flex justify-content-between flex-column pl-0 pr-0">
+            <div className="col-lg-5 col-md-6 rounded border shadow-sm m-4 d-flex justify-content-between flex-column pl-0 pr-0">
               <div className="col-xl-12 p-4">
                 <p>
-                  <Check /> World's largest Suppliers
+                  <Check /> <strong>World's largest Suppliers</strong>
                 </p>
                 <ul>
                   <li>Trusted by some of the World's largest producers</li>
@@ -126,10 +126,11 @@ const CbamDeclarantsMain = () => {
               </Link>
             </div>
 
-            <div className="col-lg-5 col-md-6 rounded border m-4 d-flex justify-content-between flex-column pl-0 pr-0">
+            <div className="col-lg-5 col-md-6 rounded border shadow-sm m-4 d-flex justify-content-between flex-column pl-0 pr-0">
               <div className="col-xl-12 p-4">
                 <p>
-                  <Check /> Certified emissions data verification
+                  <Check />{" "}
+                  <strong>Certified emissions data verification</strong>
                 </p>
                 <ul>
                   <li>
@@ -162,7 +163,7 @@ const CbamDeclarantsMain = () => {
           </div>
           <div className="row">
             <div className="col-lg-4 col-md-6">
-              <div className="p-4 rounded border d-flex justify-content-between flex-column col-xl-12">
+              <div className="p-4 rounded border shadow-sm d-flex justify-content-between flex-column col-xl-12">
                 <img src={img1.src} alt="img-with-text" />
                 <h6 className="color-green-artm">Liabilities</h6>
                 <p>
@@ -176,7 +177,7 @@ const CbamDeclarantsMain = () => {
             </div>
 
             <div className="col-lg-4 col-md-6">
-              <div className="p-4 rounded border d-flex justify-content-between flex-column">
+              <div className="p-4 rounded border shadow-sm d-flex justify-content-between flex-column">
                 <img src={img2.src} alt="img-with-text" />
                 <h6 className="color-green-artm">Reporting</h6>
                 <p>
@@ -191,7 +192,7 @@ const CbamDeclarantsMain = () => {
             </div>
 
             <div className="col-lg-4 col-md-6">
-              <div className="p-4 rounded border d-flex justify-content-between flex-column">
+              <div className="p-4 rounded border shadow-sm d-flex justify-content-between flex-column">
                 <img src={img3.src} alt="img-with-text" />
                 <h6 className="color-green-artm">Communication Support</h6>
                 <p>

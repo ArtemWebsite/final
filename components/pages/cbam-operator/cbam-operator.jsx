@@ -136,7 +136,7 @@ const CbamOperatorMain = () => {
             </div>
 
             <div className="col-lg-6 col-md-6 text-center">
-              <div className="col-xl-12  bg-light-orange-artm p-4">
+              <div className="col-xl-12 shadow-sm  bg-light-orange-artm p-4">
                 <div className="col-lg-1 mx-auto mb-4">
                   <img src={icon5.src} alt="icon" />
                 </div>
@@ -145,7 +145,7 @@ const CbamOperatorMain = () => {
             </div>
 
             <div className="col-lg-6 col-md-6 text-center">
-              <div className="col-xl-12  bg-light-green-artm p-4">
+              <div className="col-xl-12   shadow-sm bg-light-green-artm p-4">
                 <div className="col-lg-1 mx-auto mb-4">
                   <img src={icon6.src} alt="icon" />
                 </div>
@@ -172,7 +172,7 @@ const CbamOperatorMain = () => {
           </div>
           <div className="row">
             <div className="col-lg-6 col-md-6 text-center">
-              <div className="col-xl-12 p-4 border rounded-5">
+              <div className="col-xl-12 p-4 border shadow-sm rounded-5">
                 <p>
                   Equipment List based on specific Production Route/Production
                   Methodology
@@ -181,7 +181,7 @@ const CbamOperatorMain = () => {
             </div>
 
             <div className="col-lg-6 col-md-6 text-center">
-              <div className="col-xl-12 p-4 border rounded-5">
+              <div className="col-xl-12 p-4 border shadow-sm rounded-5">
                 <p>step-by-step analysis tailored to your production line</p>
               </div>
             </div>
@@ -207,7 +207,7 @@ const CbamOperatorMain = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-lg-5 col-md-6 rounded border m-4 d-flex justify-content-between flex-column">
+            <div className="col-lg-5 col-md-6 rounded border shadow-sm m-4 d-flex justify-content-between flex-column">
               <div className="col-xl-12 p-4">
                 <p className="d-flex align-items-center">
                   <Check />
@@ -221,7 +221,7 @@ const CbamOperatorMain = () => {
               </div>
             </div>
 
-            <div className="col-lg-5 col-md-6 rounded border m-4 d-flex justify-content-between flex-column">
+            <div className="col-lg-5 col-md-6 rounded border shadow-sm m-4 d-flex justify-content-between flex-column">
               <div className="col-xl-12 p-4">
                 <p className="d-flex align-items-center">
                   <Check />
@@ -234,7 +234,7 @@ const CbamOperatorMain = () => {
               </div>
             </div>
 
-            <div className="col-lg-5 col-md-6 rounded border m-4 d-flex justify-content-between flex-column">
+            <div className="col-lg-5 col-md-6 rounded border shadow-sm m-4 d-flex justify-content-between flex-column">
               <div className="col-xl-12 p-4">
                 <p className="d-flex align-items-center">
                   <Check />
@@ -244,7 +244,7 @@ const CbamOperatorMain = () => {
               </div>
             </div>
 
-            <div className="col-lg-5 col-md-6 rounded border m-4 d-flex justify-content-between flex-column">
+            <div className="col-lg-5 col-md-6 rounded border shadow-sm m-4 d-flex justify-content-between flex-column">
               <div className="col-xl-12 p-4">
                 <p className="d-flex align-items-center">
                   <Check />
@@ -276,7 +276,7 @@ const CbamOperatorMain = () => {
           </div>
           <div className="row d-flex align-items-stretch">
             <div className="col-lg-8 col-md-6">
-              <div className="p-4 rounded border d-flex flex-column h-100">
+              <div className="p-4 rounded border shadow-sm d-flex flex-column h-100">
                 <img src={img3.src} alt="img-with-text" />
                 <h6 className="color-green-artm">Liabilities</h6>
                 <p>
@@ -290,7 +290,7 @@ const CbamOperatorMain = () => {
             </div>
 
             <div className="col-lg-4 col-md-6">
-              <div className="p-4 rounded border d-flex flex-column h-100">
+              <div className="p-4 rounded border shadow-sm d-flex flex-column h-100">
                 <img src={img3.src} alt="img-with-text" />
                 <h6 className="color-green-artm">Liabilities</h6>
                 <p>
@@ -304,7 +304,7 @@ const CbamOperatorMain = () => {
             </div>
 
             <div className="col-lg-4 col-md-6">
-              <div className="p-4 rounded border d-flex flex-column h-100">
+              <div className="p-4 rounded border shadow-sm d-flex flex-column h-100">
                 <img src={img3.src} alt="img-with-text" />
                 <h6 className="color-green-artm">Liabilities</h6>
                 <p>
@@ -318,7 +318,7 @@ const CbamOperatorMain = () => {
             </div>
 
             <div className="col-lg-4 col-md-6">
-              <div className="p-4 rounded border d-flex flex-column h-100">
+              <div className="p-4 rounded border shadow-sm d-flex flex-column h-100">
                 <img src={img6.src} alt="img-with-text" />
                 <h6 className="color-green-artm">Reporting</h6>
                 <p>
@@ -333,7 +333,7 @@ const CbamOperatorMain = () => {
             </div>
 
             <div className="col-lg-4 col-md-6">
-              <div className="p-4 rounded border d-flex flex-column h-100">
+              <div className="p-4 rounded border shadow-sm d-flex flex-column h-100">
                 <img src={img7.src} alt="img-with-text" />
                 <h6 className="color-green-artm">Communication Support</h6>
                 <p>

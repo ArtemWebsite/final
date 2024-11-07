@@ -22,7 +22,7 @@ const AboutMain = () => {
             </div>
             <div className="row mb-35">
               <div
-                className="col-xl-8 mx-auto p-5 border rounded-2"
+                className="col-xl-8 mx-auto p-5 border shadow rounded-2"
                 style={{ background: "#EAF4F3" }}
               >
                 <div className="row">
