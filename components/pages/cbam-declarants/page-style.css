@@ -104,13 +104,13 @@
 }
 
 @media screen and (max-width: 576px) {
-.timeline-block {
-  width: 100% !important;
-}
 .top-blocks {
   gap: 15px;
 }
 .timeline-block {
-  padding: 12px 6px;
+  padding: 6px 6px;
+}
+.timeline-block p {
+  font-size: 14px;
 }
 }
