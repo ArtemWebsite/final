@@ -66,7 +66,7 @@ const ResponsiveMenu = () => {
 
       {/* Product Menu */}
       <li className="menu-item">
-        <Link href="#">Regulations</Link>
+        <Link href="/cbam">Regulations</Link>
         {/* <ul className="sub-menu" style={activeSubMenuStyle("product")}>
           <li>
             <Link href="#">CBAM Reporting</Link>
@@ -94,7 +94,7 @@ const ResponsiveMenu = () => {
 
       {/* About Us Menu */}
       <li className="menu-item">
-        <Link href="/about">About Us</Link>
+        <Link href="/about-us">About Us</Link>
         {/* <ul className="sub-menu" style={activeSubMenuStyle("about-us")}>
           <li>
             <Link href="/team">Team</Link>
