@@ -28,26 +28,26 @@ const BannerOne = () => {
                   
                 <div className="col-lg-4 col-md-6 text-center"> 
                 <div className={styles.banner__one_bg_content}>
-                        <Link className="btn-four" href="/contact">
+                        <div className="btn-four">
                           Track
-                        </Link>
+                        </div>
                       <p>Keep track of the impact of CBAM for each of your suppliers</p>
                       </div>
                       </div>
 
                       <div className="col-lg-4 col-md-6 text-center">
                       <div className={styles.banner__one_bg_content}>
-                        <Link className="btn-four" href="/contact">
+                      <div className="btn-four">
                           Collect
-                        </Link>
+                        </div>
                         <p>Collect Real Emission Data from your Suppliers, no matter where they are</p>
                       </div></div>
 
                       <div className="col-lg-4 col-md-6 text-center">
                       <div className={styles.banner__one_bg_content}>
-                        <Link className="btn-four" href="/contact">
+                      <div className="btn-four">
                           Verify
-                        </Link>
+                        </div>
                         <p>Ensure that your CBAM Report can pass verification</p>
                       </div></div> 
                 </div>

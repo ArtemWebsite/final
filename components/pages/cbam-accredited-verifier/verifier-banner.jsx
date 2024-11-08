@@ -27,27 +27,27 @@ const BannerOne = () => {
 
   <div className="col-lg-4 col-md-6 text-center">
     <div className={`${styles.banner__one_bg_content} h-100`}>
-      <Link className="btn-four" href="/contact">
+    <div className="btn-four">
       Remote
-      </Link>
+      </div>
       <p>reduce in-person work and receive data submission virtually</p>
     </div>
   </div>
 
   <div className="col-lg-4 col-md-6 text-center">
     <div className={`${styles.banner__one_bg_content} h-100`}>
-      <Link className="btn-four" href="/contact">
+    <div className="btn-four">
       Virtual Verification
-      </Link>
+      </div>
       <p>Allow virtual verification through acess to intangible emission data points</p>
     </div>
   </div>
 
   <div className="col-lg-4 col-md-6 text-center">
     <div className={`${styles.banner__one_bg_content} h-100`}>
-      <Link className="btn-four" href="/contact">
+    <div className="btn-four">
       Compliance
-      </Link>
+      </div>
       <p>Increase Verification numbers and ensure better CBAM Compliance</p>
     </div>
   </div>
