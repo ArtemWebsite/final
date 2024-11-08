@@ -6,7 +6,7 @@ import img3 from "../../../public/assets/img/cbam-declarants/photo3.png";
 import DeclarantSlider from "./declarant-slider";
 import BannerOne from "./declarants-banner";
 import Timeline from "./milestones";
-import { P } from "react-flaticons";
+import { P } from "react-flaticons"; 
 import Check from "@/components/items/check";
 const CbamDeclarantsMain = () => {
   return (
