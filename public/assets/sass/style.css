@@ -10984,7 +10984,7 @@ svg.checkIcon {
   margin-right: 8px;
 }
 
-/* Adjustments for Mobile Screens */
+
 @media screen and (max-width: 576px) {
   .width-narrow {
     width: 100%;

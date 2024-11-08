@@ -26,7 +26,7 @@ const BannerOne = () => {
                   </div>
 
                   
-                <div className="col-lg-4 col-md-6 text-center">
+                <div className="col-lg-4 col-md-6 text-center"> 
                 <div className={styles.banner__one_bg_content}>
                         <Link className="btn-four" href="/contact">
                           Track
