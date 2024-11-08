@@ -1,4 +1,4 @@
-import img1 from "../../../../../public/assets/img/home/unit.png";
+import img1 from "../../../../../public/assets/img/home/unit.jpg";
 
 import MeasurementTable from "../measuring";
 
