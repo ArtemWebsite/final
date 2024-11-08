@@ -9,7 +9,7 @@ const BannerOne = () => {
   return (
     <>
       <div className={styles.banner__one}>
-            <div className={styles.banner__one_image}>
+            <div className={styles.banner__one_image_1}>
               <img
                 className={styles.banner__one_shape}
                 src={bannerBg.src}
