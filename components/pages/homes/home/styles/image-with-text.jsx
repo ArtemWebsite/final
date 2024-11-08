@@ -1,4 +1,5 @@
 import img1 from "../../../../../public/assets/img/home/unit.png";
+
 import MeasurementTable from "../measuring";
 
 const ImageWithText = () => {
