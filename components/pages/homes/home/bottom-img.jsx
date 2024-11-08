@@ -10,7 +10,7 @@ const BottomImage = () => {
             <div className="col-xl-12 text-center">
             <div className="mb-5">
                 <h3 className="mb-5">
-                CEMS <span className="color-green-artm">Data</span> Collection and <span className="color-green-artm">Monitoring</span> System
+                CEMS Data Collection and Monitoring System
                 </h3>
               </div>
             </div>

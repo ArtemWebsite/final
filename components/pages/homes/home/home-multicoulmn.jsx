@@ -4,7 +4,7 @@ import multicoulmnData from "@/components/data/home-multicoulmn-data";
 const HomeMulticoulmn = () => {
   return (
     <section className="home-multicoulmn">
-      <div className="container pt-100 pb-80">
+      <div className="container pt-100">
         <div className="row">
           <h3 className="pb-4 text-center width-narrow">
             Are you part of the supply chain of one of the following industries?

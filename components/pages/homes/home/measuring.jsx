@@ -2,9 +2,7 @@ import React from 'react';
 
 const MeasurementTable = () => {
   return (
-    <div className="container mt-5 section-padding">
-     
-      <div className="col-xl-12 text-center"><div className="mb-5"><h2 className="mb-5"><span className="color-green-artm">Measurement</span> Method</h2></div></div>
+    <div className="measuring-table">
       <div className="table-responsive">
         <table className="table custom-table">
           <thead>
@@ -53,58 +51,6 @@ const MeasurementTable = () => {
           </tbody>
         </table>
       </div>
-
-      <div className="container mt-5">
-      <div className="col-xl-12 text-center"><div className="mb-5"><h2 className="mb-5">Main Technical <span className="color-green-artm">Specifications</span></h2></div></div>
-      <div className="table-responsive">
-        <table className="table custom-table custom-table-green">
-          <thead>
-            <tr>
-              <th>System Parameter</th>
-              <th>Unit</th>
-              <th>Value</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Sample Gas flow</td>
-              <td>L/min</td>
-              <td>3</td>
-            </tr>
-            <tr>
-              <td>Measuring Range</td>
-              <td>PPM</td>
-              <td>0-1000ppm</td>
-            </tr>
-            <tr>
-              <td>Lowest measuring limit</td>
-              <td>ppb</td>
-              <td>&lt; 250 ppb</td>
-            </tr>
-            <tr>
-              <td>Precision</td>
-              <td>ppb</td>
-              <td>&lt;=500 ppb</td>
-            </tr>
-            <tr>
-              <td>Reaction time</td>
-              <td>second</td>
-              <td>&lt;60 seconds</td>
-            </tr>
-            <tr>
-              <td>Redundancy Rate</td>
-              <td>%</td>
-              <td>1 %</td>
-            </tr>
-            <tr>
-              <td>Accuracy of Full Scale</td>
-              <td>%</td>
-              <td>&lt;1% full scale</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
     </div>
   );
 };

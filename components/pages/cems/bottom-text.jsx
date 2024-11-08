@@ -10,8 +10,8 @@ const BottomText = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-6 col-md-6">
-              <div className="p-4 rounded border shadow d-flex justify-content-between flex-column col-xl-12">
-                <p>UV Differential Optical Absorption Spectroscopy</p>
+              <div className="p-4 rounded border shadow col-xl-12">
+                <p><strong>UV Differential Optical Absorption Spectroscopy</strong></p>
                 <p>
                   The ultraviolet light emitted by the light source converges
                   into the optical fiber and is transmitted to the gas chamber
@@ -31,8 +31,8 @@ const BottomText = () => {
             </div>
 
             <div className="col-lg-6 col-md-6">
-              <div className="p-4 rounded border shadow d-flex justify-content-between flex-column col-xl-12">
-                <p>NDIR + GFC + CELL </p>
+              <div className="p-4 rounded border shadow col-xl-12">
+                <p><strong>NDIR + GFC + CELL </strong></p>
                 <p>
                   When infrared radiation interacts with gas molecules, infrared
                   light is absorbed by the gas molecules at a particular
@@ -49,7 +49,7 @@ const BottomText = () => {
               <div className="p-4 rounded border shadow d-flex justify-content-between flex-column col-xl-12">
                 <div className="row">
                   <div className="col-lg-6 col-md-6">
-                    <p>NDIR + GFC + CELL </p>
+                    <p><strong>NDIR + GFC + CELL</strong> </p>
                     <p>
                       When infrared radiation interacts with gas molecules,
                       infrared light is absorbed by the gas molecules at a

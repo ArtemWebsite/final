@@ -77,7 +77,7 @@ const CEMS = () => {
       </div>
       <div className="row">
             <div className="col-xl-12 pb-5">
-              <p className="text-center">The Artem CEMS Module shall run safely for a long time in the harsh environment under the following conditions:</p>
+              <p className="text-center width-narrow"style={{color:"#B4B4B4"}}>The Artem CEMS Module shall run safely for a long time in the harsh environment under the following conditions:</p>
             </div>
           </div>
 		  
@@ -116,7 +116,7 @@ outside the analysis cabin:</td>
 	  
 <div className="row">
             <div className="col-xl-12 pb-5">
-              <p className="text-center">Sampling environment temperature: up to 800 ℃
+              <p className="text-center width-narrow"style={{color:"#B4B4B4"}}>Sampling environment temperature: up to 800 ℃
 The system is designed with protection against dust, rain, electromagnetic radiation, lightning, low temperature, and fire.</p>
             </div>
           </div> 

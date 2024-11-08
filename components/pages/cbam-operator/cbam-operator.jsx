@@ -36,11 +36,11 @@ const CbamOperatorMain = () => {
         </div>
       </div>
 
-      <div className="bg-theme-light-orange pt-80">
-        <div className="container pt-80 position-relative">
-          <div className="row w-100 position-absolute top-50 start-50 translate-middle z-3">
+      <div className="bg-theme-light-orange px-5 pt-80">
+        <div className="px-5 pt-80 position-relative">
+          <div className="row px-5 w-100 position-absolute top-50 start-50 translate-middle z-3">
             <div className="col-lg-4 col-md-6 m-2 bg-white shadow-lg rounded-3">
-              <div className="col-xl-12 p-4 text-center">
+              <div className="p-4 text-center">
               <Caution/>
               <p className="pt-20"> 
                   Producers exporting to the EU will need to account for the
@@ -49,7 +49,7 @@ const CbamOperatorMain = () => {
               </div>
             </div>
             <div className="col-lg-4 col-md-6 m-2 bg-white shadow-lg rounded-3">
-              <div className="col-xl-12 p-4 text-center">
+              <div className="p-4 text-center">
               <Caution/>
                 <p className="pt-20"> 
                   Producers that fail to adopt technologies that emit fewer GHGs
@@ -58,7 +58,7 @@ const CbamOperatorMain = () => {
               </div>
             </div>
             <div className="col-lg-4 col-md-6 m-2 bg-white shadow-lg rounded-3">
-              <div className="col-xl-12 p-4 text-center">
+              <div className="p-4 text-center">
               <Caution/>
               <p className="pt-20"> 
                   Reporting Declarants importing into the European Union, and
@@ -98,22 +98,22 @@ const CbamOperatorMain = () => {
             </div>
           </div>
 
-          <div className="row d-flex align-items-stretch">
-            <div className="col-lg-6 col-md-6 text-center p-4">
+          <div className="row d-flex gap-3 justify-content-center">
+            <div className="col-lg-5 col-md-6 text-center p-4">
               <div className="col-lg-1 mx-auto mb-4">
                 <img src={icon1.src} alt="icon"  style={{width:"60px",height:"auto"}}/>
               </div>
               <h6>EU Default Calculation Method</h6>
             </div>
 
-            <div className="col-lg-6 col-md-6 text-center p-4">
+            <div className="col-lg-5 col-md-6 text-center p-4">
               <div className="col-lg-1 mx-auto mb-4">
                 <img src={icon2.src} alt="icon" style={{width:"60px",height:"auto"}}/>
               </div>
               <h6>EU Default Calculation Method</h6>
             </div>
 
-            <div className="col-lg-6 col-md-6 text-center p-4">
+            <div className="col-lg-5 col-md-6 text-center p-4">
               <div className="col-lg-2 mx-auto mb-4">
                 <img src={icon3.src} alt="icon" style={{width:"60px",height:"auto"}}/>
               </div>
@@ -127,7 +127,7 @@ const CbamOperatorMain = () => {
               </p>
             </div>
 
-            <div className="col-lg-6 col-md-6 text-center p-4">
+            <div className="col-lg-5 col-md-6 text-center p-4">
               <div className="col-lg-2 mx-auto mb-4">
                 <img src={icon4.src} alt="icon" style={{width:"60px",height:"auto"}} />
               </div>
@@ -141,7 +141,7 @@ const CbamOperatorMain = () => {
               </p>
             </div>
 
-            <div className="col-lg-6 col-md-6 text-center">
+            <div className="col-lg-5 col-md-6 text-center">
               <div className="col-xl-12 shadow-sm  bg-light-orange-artm p-4">
                 <div className="col-lg-1 mx-auto mb-4">
                   
@@ -156,7 +156,7 @@ const CbamOperatorMain = () => {
               </div>
             </div>
 
-            <div className="col-lg-6 col-md-6 text-center">
+            <div className="col-lg-5 col-md-6 text-center">
               <div className="col-xl-12   shadow-sm bg-light-green-artm p-4">
                 <div className="col-lg-1 mx-auto mb-4">
                
@@ -187,17 +187,17 @@ const CbamOperatorMain = () => {
               </p>
             </div>
           </div>
-          <div className="row">
-            <div className="col-lg-6 col-md-6 text-center">
-              <div className="col-xl-12 p-4 border shadow-sm rounded-5 text-capitalize">
+          <div className="row mx-auto justify-content-center">
+            <div className="col-lg-5 col-md-6">
+              <div className="col-xl-12 p-4 border shadow-sm rounded-2 text-capitalize">
                 <p>
                 Equipment List based on specific Production Route/Production Methodology
                 </p>
               </div>
             </div>
 
-            <div className="col-lg-6 col-md-6 text-center">
-              <div className="col-xl-12 p-4 border shadow-sm rounded-5 text-capitalize">
+            <div className="col-lg-5 col-md-6">
+              <div className="col-xl-12 p-4 border shadow-sm rounded-2 text-capitalize">
                 <p>Step-by-step analysis tailored to your production line</p>
               </div>
             </div>

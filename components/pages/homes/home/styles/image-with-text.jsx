@@ -1,27 +1,22 @@
-import img1 from "../../../../../public/assets/img/home/unit.jpg";
+import img1 from "../../../../../public/assets/img/home/unit.png";
+import MeasurementTable from "../measuring";
 
 const ImageWithText = () => {
     
     return (
-        <div className="team__details pt-40">
+        <div className="team__details pt-60">
             <div className="container">
-                <div className="row align-items-center rounded bg-light-green-artm">
-                    <div className="col-md-6 container-fluid p-0">
-            <img className="p-5" src={img1.src} alt="image" />
-          </div>
-          <div className="col-md-6">
-            <div className="p-4">
-                            <ul>
-                                    <li>Industrial production process monitoring  under CBAM </li>
-                                    <li>Industrial combustion efficiency monitoring</li>
-                                    <li>Industrial Furnaces in different CBAM industries</li>
-                                    <li>Adopt to multiple Potential Emission Points (“PEP”) in one production line</li>
-                                    <li>Cement Fuel Gas</li>
-                                    <li>Industrial Coal Boiler</li>
-                                    <li>Atmosphere monitoring during heat treatment of steel</li>
-                                    <li>Incinerators</li>
-                                 </ul>
+            <div className="row">
+            <div className="col-xl-12 pb-5">
+              <h3 className="text-center">Our Model’s Measurements</h3>
             </div>
+          </div>
+                <div className="row">
+          <div className="col-md-8">
+                            <MeasurementTable />
+          </div>
+                    <div className="col-md-4">
+            <img className="" src={img1.src} alt="image" />
           </div>
                 </div>
             </div>
