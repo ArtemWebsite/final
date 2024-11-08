@@ -1,6 +1,6 @@
 import Image from "next/image";
 import bannerBg from "../../../public/assets/img/about/banner.png";
-import styles from "../homes/home/styles/BannerOne.module.css";
+import styles from "../homes/home/styles/BannerTwo.module.css";
 
 const BannerOne = () => {
   return (

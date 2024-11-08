@@ -102,3 +102,15 @@
   border-top: 1px solid #c2c2c2;
   margin-top: 40px;
 }
+
+@media screen and (max-width: 576px) {
+.timeline-block {
+  width: 100% !important;
+}
+.top-blocks {
+  gap: 15px;
+}
+.timeline-block {
+  padding: 12px 6px;
+}
+}

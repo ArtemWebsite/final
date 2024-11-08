@@ -27,15 +27,15 @@ const BannerOne = () => {
         <Swiper modules={[EffectFade, Autoplay, Navigation]} {...slideControl}>
           <SwiperSlide>
             <div className={styles.banner__one_image}>
-              {/* <video autoPlay loop muted playsInline className={styles.video}>
+              <video autoPlay loop muted playsInline className={styles.video}>
                 <source src="/assets/video/green.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
-              </video> */}
-              <img
+              </video> 
+              {/*<img
                 className={styles.banner__one_shape}
                 src={bannerBg.src}
                 alt="banner-shape"
-              />
+              />*/}
               <div className="container">
                 <div className="row">
                   <div className="col-xl-12 pt-120 text-center">

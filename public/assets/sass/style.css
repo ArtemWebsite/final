@@ -10983,8 +10983,16 @@ p.stack_paragraph {
 svg.checkIcon {
   margin-right: 8px;
 }
-
-
+@media screen and (min-width: 767px) {
+.p-abs-div {
+  position: absolute;
+  z-index: 3;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+}
+}
 @media screen and (max-width: 576px) {
   .width-narrow {
     width: 100%;
@@ -10998,8 +11006,15 @@ svg.checkIcon {
 .pb-80 {
   padding-bottom: 40px;
 }
+.pt-80 {
+  padding-top: 30px;
+}
 .main_banner_inner_text {
   font-size: 1rem;
   line-height: 1.8rem;
+}
+h4 {
+  font-size: 22px;
+  line-height: 30px;
 }
 }

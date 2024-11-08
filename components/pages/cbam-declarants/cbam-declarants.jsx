@@ -25,7 +25,7 @@ const CbamDeclarantsMain = () => {
 
       <div className="bg-theme-green pt-80">
         <div className="container pt-80 position-relative">
-          <div className="row w-100 position-absolute top-50 start-50 translate-middle z-3">
+          <div className="row p-abs-div justify-content-center">
             <div className="col-lg-5 col-md-6 m-4 bg-white rounded-2">
               <div className="col-xl-12 p-4 rounded-2">
                 <p>

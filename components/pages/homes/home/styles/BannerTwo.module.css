@@ -1,0 +1,107 @@
+.banner__one {
+    width: 100%;
+    height: 55vh;
+    overflow: hidden;
+    position: relative;
+    background: #000;
+  }
+  
+  .banner__one_image {
+    width: 100%;
+    height: 55vh;
+    position: relative;
+    color: white; /* Ensures text is visible over the video */
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .video {
+    width: 100%;
+    height: 85vh;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+  
+  .banner__one_shape {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+  }
+  
+  .container {
+    position: relative;
+    z-index: 3;
+    height: 100%;
+  }
+  
+  .row,
+  .col-xl-12 {
+    height: 100%;
+  }
+  
+  .banner__one_content {
+    position: relative;
+    z-index: 4;
+    color: white; /* Ensures text is visible over the video */
+  }
+  .banner__one_bg_content {
+    position: relative;
+    z-index: 4;
+    color: white;
+    background: rgb(255 255 255 / 38%);
+    padding: 30px 10px;
+    border: 2px solid #ededed;
+    border-radius: 20px;
+    position: relative;
+  }
+  /* .banner__one_bg_content:before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: rgb(255 255 255 / 38%);
+    position: absolute;
+    left: 0;
+    top: 0;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    border-radius: 20px;
+  } */
+  
+  .banner__one_content_button {
+    margin-top: 20px;
+  }
+  @media screen and (max-width: 768px) {
+    .banner__one {
+      width: 100%;
+      height: 500px;
+    }
+  
+    .banner__one_image {
+      width: 100%;
+      height: 500px;
+      position: relative;
+      color: white; /* Ensures text is visible over the video */
+      vertical-align: middle;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .video {
+      width: 100%;
+      height: 500px;
+      object-fit: cover;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 1;
+    }
+  }
