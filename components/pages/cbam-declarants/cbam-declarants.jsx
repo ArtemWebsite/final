@@ -84,7 +84,8 @@ const CbamDeclarantsMain = () => {
                 <p>
                   <Check /> <strong>ARTEM Reporting Solution</strong>
                 </p>
-                <ul>
+                
+                <ul className="text-capitalize">
                   <li>Manage your supplier's emission reports</li>
                   <li>Seamless integration with the EU Portal</li>
                 </ul>
@@ -99,7 +100,7 @@ const CbamDeclarantsMain = () => {
                 <p>
                   <Check /> <strong>Data you can trust</strong>
                 </p>
-                <ul>
+                <ul className="text-capitalize">
                   <li>
                     Emissions data gathered in accordance with applicable ISO
                     standards or calculated in accordance with CBAM Regulations
@@ -117,7 +118,7 @@ const CbamDeclarantsMain = () => {
                 <p>
                   <Check /> <strong>World's largest Suppliers</strong>
                 </p>
-                <ul>
+                <ul className="text-capitalize">
                   <li>Trusted by some of the World's largest producers</li>
                 </ul>
               </div>
@@ -133,7 +134,7 @@ const CbamDeclarantsMain = () => {
                   <strong>Certified emissions data verification</strong>
                 </p>
                 <ul>
-                  <li>
+                  <li className="text-capitalize">
                     All supporting documentation gathered to ensure that your
                     emissions reports pass verification, every time
                   </li>

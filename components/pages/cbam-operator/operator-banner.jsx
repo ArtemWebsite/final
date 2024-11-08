@@ -30,7 +30,7 @@ const BannerOne = () => {
       <div className="btn-four" >
         Track
       </div>
-      <p>Track Carbon Certificate Price according to Current emission levels</p>
+      <p  className="text-capitalize">Track Carbon Certificate Price according to Current emission levels</p>
     </div>
   </div>
 
@@ -39,7 +39,7 @@ const BannerOne = () => {
     <div className="btn-four" >
         Trace
         </div>
-      <p>Interoperability with your MES system to ensure visibility over your entire supply chain</p>
+      <p  className="text-capitalize">Interoperability with your MES system to ensure visibility over your entire supply chain</p>
     </div>
   </div>
 
@@ -48,7 +48,7 @@ const BannerOne = () => {
     <div className="btn-four" >
         Automate
         </div>
-      <p>Automatic data collection; no need for manual input</p>
+      <p  className="text-capitalize">Automatic data collection; no need for manual input</p>
     </div>
   </div>
 
@@ -57,7 +57,7 @@ const BannerOne = () => {
     <div className="btn-four" >
         Verify
         </div>
-      <p>Verification and certification according to EU Standards</p>
+      <p  className="text-capitalize">Verification and certification according to EU Standards</p>
     </div>
   </div>
 

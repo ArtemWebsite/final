@@ -32,7 +32,7 @@ const CBAMAccreditedVerifierMain = () => {
                 <Check />
                   <strong>Onboarding</strong>
                 </p>
-                <p>
+                <p className="text-capitalize">
                   Easy Onboarding of Installations all over the world with local
                   teams to extract primary data and provide support
                 </p>
@@ -45,8 +45,8 @@ const CBAMAccreditedVerifierMain = () => {
                 <Check />
                   <strong>Precise</strong>
                 </p>
-                <p>
-                  use CEMS units to accurately measure emission points at the
+                <p className="text-capitalize">
+                  Use CEMS units to accurately measure emission points at the
                   installations locally
                 </p>
               </div>
@@ -58,7 +58,7 @@ const CBAMAccreditedVerifierMain = () => {
                 <Check />
                   <strong>Security</strong>
                 </p>
-                <p>
+                <p className="text-capitalize">
                   Locally stored data to honour local data sovereignty law, with
                   sound data integrity protection
                 </p>
@@ -71,7 +71,7 @@ const CBAMAccreditedVerifierMain = () => {
                 <Check />
                   <strong>Efficiency</strong>
                 </p>
-                <p>
+                <p className="text-capitalize">
                   Virtual verification process that allows for minimization of
                   efforts
                 </p>
@@ -82,9 +82,9 @@ const CBAMAccreditedVerifierMain = () => {
               <div className="col-xl-12 p-4">
                 <p className="d-flex align-items-center">
                 <Check />
-                  <strong>automation</strong>
+                  <strong>Automation</strong>
                 </p>
-                <p>
+                <p className="text-capitalize">
                   Automatic and in person translation in-app to reduce
                   outsourcing and protect verification quality
                 </p>
@@ -97,7 +97,7 @@ const CBAMAccreditedVerifierMain = () => {
                 <Check />
                   <strong>Roles and Responsibilities</strong>
                 </p>
-                <p>smart contracts to clairfy legal responsibility</p>
+                <p className="text-capitalize">smart contracts to clairfy legal responsibility</p>
               </div>
             </div>
           </div>

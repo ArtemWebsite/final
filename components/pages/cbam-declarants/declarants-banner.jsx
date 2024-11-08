@@ -48,7 +48,7 @@ const BannerOne = () => {
                         <div className="btn-four">
                           Track
                         </div>
-                      <p>Keep track of the impact of CBAM for each of your suppliers</p>
+                        <p className="text-capitalize">Keep track of the impact of CBAM for each of your suppliers</p>
                       </div>
                       </div>
 
@@ -57,7 +57,7 @@ const BannerOne = () => {
                       <div className="btn-four">
                           Collect
                         </div>
-                        <p>Collect Real Emission Data from your Suppliers, no matter where they are</p>
+                        <p className="text-capitalize">Collect Real Emission Data from your Suppliers, no matter where they are</p>
                       </div></div>
 
                       <div className="col-lg-4 col-md-6 text-center">
@@ -65,7 +65,7 @@ const BannerOne = () => {
                       <div className="btn-four">
                           Verify
                         </div>
-                        <p>Ensure that your CBAM Report can pass verification</p>
+                        <p className="text-capitalize">Ensure that your CBAM Report can pass verification</p>
                       </div></div> 
                 </div>
               </div>

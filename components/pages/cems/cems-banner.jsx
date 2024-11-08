@@ -15,15 +15,16 @@ const BannerOne = () => {
                 src={bannerBg.src}
                 alt="banner-shape"
               />
-              <div className="container">
+              
+              <div className="container" style={{zIndex:"999"}}>
               <div className="row d-flex align-items-stretch">
 
-<div className="col-xl-12 pt-120 pb-60 text-center">
+<div className="col-xl-12 pt-120 pb-10 text-center">
                     <div className={styles.banner__one_content}>
                       <h2 className="text-light pb-30  width-narrow">
-                      We Help Operators Globally to Measure and Calculate Emissions
+                      Emission Monitoring Equipment
                       </h2>
-                      <h6 className="text-light pb-30  width-narrow">The ARTEM CEMS Modul is designed to continuously monitor multiple parameters, including the content of CO2 SO2, NO, O2 and Perfluoro carbons.  It measures: </h6>
+                      <h6 className="text-light pb-30  width-narrow">The ARTEM CEMS Modul is designed to continuously monitor multiple parameters, including the content of CO2 SO2, NO, O2 and Perfluoro carbons.  It measures:  </h6>
                     </div>
                   </div>
 <div className="width-narrow-new row ">
@@ -51,7 +52,7 @@ const BannerOne = () => {
       </div>
   </div>
   </div>
-  <div className="col-xl-12 pt-80 text-center">
+  <div className="col-xl-12 pt-0 text-center">
                     <div className={styles.banner__one_content}>
                       <p>The measured parameters are transmitted to the Data Storage System(DSS). </p>
                     </div>
@@ -63,7 +64,13 @@ const BannerOne = () => {
                   </div>
                   </div>
               </div>
+              <div className="banner-image-overlay" style={{    position: "absolute",
+    height: "100%",
+    width:" 100%",
+    background: "#00000082",
+    zIndex: "99"}}></div>
             </div>
+           
       </div>
     </>
   );

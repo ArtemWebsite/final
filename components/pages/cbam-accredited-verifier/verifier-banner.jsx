@@ -30,7 +30,7 @@ const BannerOne = () => {
     <div className="btn-four">
       Remote
       </div>
-      <p>reduce in-person work and receive data submission virtually</p>
+      <p className="text-capitalize">reduce in-person work and receive data submission virtually</p>
     </div>
   </div>
 
@@ -39,7 +39,7 @@ const BannerOne = () => {
     <div className="btn-four">
       Virtual Verification
       </div>
-      <p>Allow virtual verification through acess to intangible emission data points</p>
+      <p className="text-capitalize">Allow virtual verification through acess to intangible emission data points</p>
     </div>
   </div>
 
@@ -48,7 +48,7 @@ const BannerOne = () => {
     <div className="btn-four">
       Compliance
       </div>
-      <p>Increase Verification numbers and ensure better CBAM Compliance</p>
+      <p className="text-capitalize">Increase Verification numbers and ensure better CBAM Compliance</p>
     </div>
   </div>
 

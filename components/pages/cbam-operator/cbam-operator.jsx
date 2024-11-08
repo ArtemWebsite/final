@@ -229,7 +229,7 @@ const CbamOperatorMain = () => {
                   <Check /> 
                   <strong>CBAM Compliance tool</strong>
                 </p>
-                <p>
+                <p  className="text-capitalize">
                   Fully compliant with all legislative requirements, and allows
                   you to easily automate compliance obligations such as
                   compiling your Monitoring Methodology
@@ -243,7 +243,7 @@ const CbamOperatorMain = () => {
                   <Check />
                   <strong>Pricing</strong>
                 </p>
-                <p>
+                <p  className="text-capitalize">
                   Lower carbon price due to emission calculation based on CEMS
                   in contrast to using default values
                 </p>
@@ -256,7 +256,7 @@ const CbamOperatorMain = () => {
                   <Check />
                   <strong>Bespoke</strong>
                 </p>
-                <p>Model ARTEM Clause for better CBAM adjusted contracting</p>
+                <p  className="text-capitalize">Model ARTEM Clause for better CBAM adjusted contracting</p>
               </div>
             </div>
 
@@ -266,7 +266,7 @@ const CbamOperatorMain = () => {
                   <Check />
                   <strong>Cost effective</strong>
                 </p>
-                <p>
+                <p  className="text-capitalize">
                   Lower carbon price due to emission calculation based on CEMS
                   in contrast to using default values
                 </p>

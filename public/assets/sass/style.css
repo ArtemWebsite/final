@@ -11024,3 +11024,6 @@ h4 {
   padding-top: 30px;
 }
 }
+body {
+  overflow-x: hidden;
+}

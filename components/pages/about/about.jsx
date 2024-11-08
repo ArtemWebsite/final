@@ -100,7 +100,7 @@ const AboutMain = () => {
           <div className="container mx-auto pt-120">
             <div className="row d-flex align-items-stretch">
               <div className="col-xl-10 mx-auto">
-                <div className="row">
+                <div className="row justify-content-center">
                   <div className="col-lg-5 p-4 col-md-6 mx-4 border shadow rounded-2 mb-5">
                     <div className="row">
                       <div className="col-lg-10 col-md-6">
