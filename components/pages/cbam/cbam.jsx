@@ -19,9 +19,9 @@ const CBAM = () => {
                 Climate change is a global problem that needs global solutions.
               </h3>
               <h5 className="pb-4  text-white">
-                CBAM is the EU’s answer to the problem of “carbon leakage”.
+                CBAM is the EU’s answer to the problem of <span className="color-green-artm">“carbon leakage”.</span>
               </h5>
-              <p className="mt-4">
+              <p className="mt-4 text-white">
                 “Carbon leakage” occurs when companies based in the EU move
                 carbon-intensive production abroad to countries with less strict
                 climate actions, or when EU products get replaced by more
