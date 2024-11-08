@@ -45,7 +45,7 @@ const CBAM = () => {
             <div className="row">
               <div className="col-lg-4 col-md-6">
                 <div className="p-4 rounded border shadow d-flex justify-content-between flex-column col-xl-12">
-                  <p className="d-flex align-items-center">
+                  <p className="d-flex align-items-center pb-20">
                   <Check/>
                     <strong>CBAM Obligations</strong>
                   </p>
@@ -62,23 +62,40 @@ const CBAM = () => {
                   <Check/>
                     <strong>Scope of Applications</strong>
                   </p>
+                  <div className="d-flex gap-3 pb-20">
                   <ul>
-                    <li>Quarterly Emissions Reporting</li>
-                    <li>Purchase of CBMA Certificate (Carbon Tax)</li>
+          <li>Aluminium</li>
+                    <li>Electricity</li>
+                    <li>Cement</li>
                   </ul>
+                      <ul>
+          <li> Iron & Steel</li>
+                    <li>Hydrogen</li>
+                    <li>Hydrogen</li>
+                  </ul>
+                  </div>
                 </div>
               </div>
 
               <div className="col-lg-4 col-md-6">
                 <div className="p-4 rounded border shadow d-flex justify-content-between flex-column">
-                  <p className="d-flex align-items-center">
+                  <p className="d-flex align-items-center mb-1">
                   <Check/>
                     <strong>CBAM Impact</strong>
                   </p>
+                  <span style={{fontSize:"14px"}}> <strong>Increased Costs Across:</strong></span>
+                  <div className="d-flex gap-3">
                   <ul>
-                    <li>Quarterly Emissions Reporting</li>
-                    <li>Purchase of CBMA Certificate (Carbon Tax)</li>
+                  <li>Imported Goods</li>
+                    <li>Compliance</li>
+                    <li>Offshoring</li>
                   </ul>
+                  <ul>
+                  <li>Capex</li>
+                    <li>Compliance</li>
+                    <li>Technology</li>
+                  </ul>
+                  </div>
                 </div>
               </div>
             </div>
@@ -102,9 +119,7 @@ const CBAM = () => {
                 style={{ background: "#EAF4F3" }}
               >
                 <p>
-                  US $45 Billion of CBAM covered goods were exported to Europe
-                  from Asia-Pacific in 2022, representing 4 percent of total
-                  exports from the region.
+                US $45 Billion of CBAM covered goods were exported to Europe from Asia-Pacific in 2022, representing 4 percent of total exports from the region.
                 </p>
                 <p>— Goldman Sachs</p>
               </div>
@@ -116,7 +131,7 @@ const CBAM = () => {
           <div className="container">
             <div className="row mb-35">
               <div className="col-xl-12">
-                <h3 className="mb-md-5 text-center mb-3">
+                <h3 className="mb-md-5 text-center mb-3 width-narrow  ">
                   Why is ARTEM Necessary for Everyone Affected by CBAM?
                 </h3>
               </div>
@@ -124,11 +139,7 @@ const CBAM = () => {
             <div className="row mb-35">
               <div className="col-xl-8 mx-auto p-5 border shadow rounded-2">
                 <p>
-                  Starting from OCTOBER 2024, THE IMPORTERS MUST SUBMIT THEIR
-                  CBAM reports at the customs for each import based on primary
-                  data from the installation. starting from MAY 2025, wrong
-                  reporting will lead to monetary sanction ranging from
-                  EUR10-EUR50 per ton of unreported emission.{" "}
+                Starting from OCTOBER 2024, THE IMPORTERS MUST SUBMIT THEIR CBAM reports at the customs for each import based on primary data from the installation. starting from MAY 2025, wrong reporting will lead to monetary sanction ranging from EUR10-EUR50 per ton of unreported emission. {" "}
                 </p>
               </div>
             </div>
