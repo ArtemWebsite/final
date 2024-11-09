@@ -36,7 +36,7 @@ const CbamOperatorMain = () => {
         </div>
       </div>
 
-      <div className="bg-theme-light-orange px-5 pt-80">
+      <div className="desk-version bg-theme-light-orange px-5 pt-80">
         <div className="px-5 pt-80 position-relative">
           <div className="row px-5 w-100 position-absolute top-50 start-50 translate-middle z-3">
             <div className="col-lg-4 col-md-6 m-2 bg-white shadow-lg rounded-3">
@@ -70,6 +70,42 @@ const CbamOperatorMain = () => {
           </div>
         </div>
       </div>
+
+      <div className="mob-version bg-theme-light-orange pt-80">
+        <div className="pt-80 position-relative">
+          <div className="row container mx-auto">
+            <div className="col-lg-4 col-md-6 mb-2 bg-white shadow-lg rounded-3">
+              <div className="p-4 text-center">
+              <Caution/>
+              <p className="pt-20"> 
+                  Producers exporting to the EU will need to account for the
+                  carbon emissions associated with their products.
+                </p>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 mb-2 bg-white shadow-lg rounded-3">
+              <div className="p-4 text-center">
+              <Caution/>
+                <p className="pt-20"> 
+                  Producers that fail to adopt technologies that emit fewer GHGs
+                  risk losing market share.
+                </p>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 mb-2 bg-white shadow-lg rounded-3">
+              <div className="p-4 text-center">
+              <Caution/>
+              <p className="pt-20"> 
+                  Reporting Declarants importing into the European Union, and
+                  their suppliers, will expect producers to comply with
+                  reporting and verification obligations imposed by CBAM.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <OperatorSlider />
 
       <div className="pt-60">
@@ -222,7 +258,7 @@ const CbamOperatorMain = () => {
               </div>
             </div>
           </div>
-          <div className="row row justify-content-center">
+          <div className="row justify-content-center container mx-auto">
             <div className="col-lg-5 col-md-6 rounded border shadow-sm m-4 d-flex justify-content-between flex-column">
               <div className="col-xl-12 p-4">
                 <p className="d-flex align-items-center">

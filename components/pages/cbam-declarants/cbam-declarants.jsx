@@ -24,8 +24,8 @@ const CbamDeclarantsMain = () => {
       </div>
 
       <div className="bg-theme-green pt-80">
-        <div className="container pt-80 position-relative">
-          <div className="row p-abs-div justify-content-center">
+        <div className="pt-80 position-relative">
+          <div className="row p-abs-div justify-content-center container mx-auto">
             <div className="col-lg-5 col-md-6 m-4 bg-white rounded-2">
               <div className="col-xl-12 p-4 rounded-2">
                 <p>
@@ -78,7 +78,7 @@ const CbamDeclarantsMain = () => {
               </div>
             </div>
           </div>
-          <div className="row justify-content-center">
+          <div className="row justify-content-center container mx-auto">
             <div className="col-lg-5 col-md-6 rounded border shadow-sm m-4 d-flex justify-content-between flex-column pl-0 pr-0">
               <div className="col-xl-12 p-4">
                 <p>

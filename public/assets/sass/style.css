@@ -10992,8 +10992,11 @@ svg.checkIcon {
   left: 50%;
   top: 50%;
 }
+.mob-version {
+  display: none;
 }
-@media screen and (max-width: 576px) {
+}
+@media screen and (max-width: 767px) {
   .width-narrow {
     width: 100%;
 }
@@ -11022,6 +11025,12 @@ h4 {
 }
 .pt-60 {
   padding-top: 30px;
+}
+.mob-version {
+  display: block;
+}
+.desk-version {
+  display:none;
 }
 }
 body {

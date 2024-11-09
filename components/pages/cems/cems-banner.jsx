@@ -2,7 +2,7 @@ import bannerBg from "../../../public/assets/img/cems/banner.jpg";
 import img1 from "../../../public/assets/img/cems/small-image-banner.png";
 
 import Link from "next/link";
-import styles from "../homes/home/styles/BannerOne.module.css";
+import styles from "../homes/home/styles/BannerThree.module.css";
 
 
 const BannerOne = () => {
