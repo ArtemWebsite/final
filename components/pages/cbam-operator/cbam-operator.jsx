@@ -224,7 +224,7 @@ const CbamOperatorMain = () => {
             </div>
           </div>
           <div className="row mx-auto justify-content-center">
-            <div className="col-lg-5 col-md-6">
+            <div className="col-lg-5 mb-2 col-md-6">
               <div className="col-xl-12 p-4 border shadow-sm rounded-2 text-capitalize">
                 <p>
                 Equipment List based on specific Production Route/Production Methodology
@@ -232,7 +232,7 @@ const CbamOperatorMain = () => {
               </div>
             </div>
 
-            <div className="col-lg-5 col-md-6">
+            <div className="col-lg-5 mb-2 col-md-6">
               <div className="col-xl-12 p-4 border shadow-sm rounded-2 text-capitalize">
                 <p>Step-by-step analysis tailored to your production line</p>
               </div>

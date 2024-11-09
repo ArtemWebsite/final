@@ -9,7 +9,7 @@ const TeamMain = () => {
           <div className="team__one-title t-center pb-50">
             <h3>Our Leadership Team</h3>
           </div>
-          <p>
+          <p className="text-center width-narrow pb-50" style={{color:"#B4B4B4"}}>
             With over 30 years of experience in the manufacturing sector, the
             team at ARTEM are perfectly placed to assist you with complying with
             the CBAM requirements.
