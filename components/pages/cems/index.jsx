@@ -11,7 +11,7 @@ import BottomText from "./bottom-text";
 
 const CEMS = () => {
   return (
-    <>
+    <div className="cems-page">
       <SEO pageTitle=" Emission Monitoring Equipment" />
 
       <HeaderOne />
@@ -127,7 +127,7 @@ The system is designed with protection against dust, rain, electromagnetic radia
      
       <FooterOne />
      
-    </>
+    </div>
   );
 };
 

@@ -34,4 +34,4 @@ const ImageWithText = () => {
     );
 };
 
-export default ImageWithText;
+export default ImageWithText; 
