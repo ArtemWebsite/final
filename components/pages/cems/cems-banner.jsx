@@ -1,14 +1,32 @@
+import { Swiper, SwiperSlide } from "swiper/react";
+import { EffectFade, Autoplay, Navigation } from "swiper/modules";
 import bannerBg from "../../../public/assets/img/cems/banner.jpg";
 import img1 from "../../../public/assets/img/cems/small-image-banner.png";
 
 import Link from "next/link";
 import styles from "../homes/home/styles/BannerThree.module.css";
 
+const slideControl = {
+  loop: true,
+  slidesPerView: 1,
+  effect: "fade",
+  autoplay: {
+    delay: 5500,
+    reverseDirection: false,
+    disableOnInteraction: false,
+  },
+  navigation: {
+    nextEl: ".banner_next",
+    prevEl: ".banner_prev",
+  },
+};
 
 const BannerOne = () => {
   return (
     <>
       <div className={styles.banner__one}>
+      <Swiper modules={[EffectFade, Autoplay, Navigation]} {...slideControl}>
+      <SwiperSlide>
             <div className={styles.banner__one_image_1}>
               <img
                 className={styles.banner__one_shape}
@@ -19,7 +37,7 @@ const BannerOne = () => {
               <div className="container" style={{zIndex:"999"}}>
               <div className="row d-flex align-items-stretch">
 
-<div className="col-xl-12 pt-120 pb-10 text-center">
+<div className="col-xl-12 pt-60 pb-10 text-center">
                     <div className={styles.banner__one_content}>
                       <h2 className="text-light pb-30  width-narrow">
                       Emission Monitoring Equipment
@@ -70,7 +88,8 @@ const BannerOne = () => {
     background: "#00000082",
     zIndex: "99"}}></div>
             </div>
-           
+            </SwiperSlide>
+            </Swiper>
       </div>
     </>
   );

@@ -88,7 +88,6 @@
       height: 800px;
       position: relative;
       color: white; /* Ensures text is visible over the video */
-      vertical-align: top;
       display: flex;
       align-items: center;
       justify-content: center;

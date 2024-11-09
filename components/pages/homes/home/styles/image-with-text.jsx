@@ -1,5 +1,5 @@
 import img1 from "../../../../../public/assets/img/cems/small-image-banner.png";
-
+import img2 from "../../../../../public/assets/img/cems/unit.jpg";
 import MeasurementTable from "../measuring";
 
 const ImageWithText = () => {
@@ -13,11 +13,20 @@ const ImageWithText = () => {
             </div>
           </div>
                 <div className="row">
-          <div className="col-md-8">
+          <div className="col-md-7">
                             <MeasurementTable />
           </div>
-                    <div className="col-md-4">
+                    <div className="col-md-5">
+                    <div className="col-xl-12">
+                    <div className="row">
+                    <div className="col-md-6">
             <img className="" src={img1.src} alt="image" />
+            </div>
+            <div className="col-md-6">
+            <img className="" src={img2.src} alt="image" />
+            </div>
+            </div>
+</div>
           </div>
                 </div>
             </div>

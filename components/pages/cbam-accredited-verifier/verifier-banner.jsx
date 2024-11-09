@@ -1,13 +1,30 @@
-
+import { Swiper, SwiperSlide } from "swiper/react";
+import { EffectFade, Autoplay, Navigation } from "swiper/modules";
 import bannerBg from "../../../public/assets/img/cbam-verifier/banner.jpg";
 import Link from "next/link";
-import styles from "../homes/home/styles/BannerOne.module.css";
+import styles from "../homes/home/styles/BannerThree.module.css";
 
+const slideControl = {
+  loop: true,
+  slidesPerView: 1,
+  effect: "fade",
+  autoplay: {
+    delay: 5500,
+    reverseDirection: false,
+    disableOnInteraction: false,
+  },
+  navigation: {
+    nextEl: ".banner_next",
+    prevEl: ".banner_prev",
+  },
+};
 
 const BannerOne = () => {
   return (
     <>
       <div className={styles.banner__one}>
+      <Swiper modules={[EffectFade, Autoplay, Navigation]} {...slideControl}>
+      <SwiperSlide>
             <div className={styles.banner__one_image}>
               <img
                 className={styles.banner__one_shape}
@@ -17,7 +34,7 @@ const BannerOne = () => {
               <div className="container">
               <div className="row d-flex align-items-stretch">
 
-<div className="col-xl-12 pt-120 text-center">
+<div className="col-xl-12 text-center">
                     <div className={styles.banner__one_content}>
                       <h2 className="text-light pb-30">
                       Widen your Customer  Network on a Global Scale
@@ -25,7 +42,7 @@ const BannerOne = () => {
                     </div>
                   </div>
 
-  <div className="col-lg-4 col-md-6 text-center">
+  <div className="col-lg-4 col-md-6 mb-2 text-center">
     <div className={`${styles.banner__one_bg_content} h-100`}>
     <div className="btn-four">
       Remote
@@ -34,7 +51,7 @@ const BannerOne = () => {
     </div>
   </div>
 
-  <div className="col-lg-4 col-md-6 text-center">
+  <div className="col-lg-4 col-md-6 mb-2 text-center">
     <div className={`${styles.banner__one_bg_content} h-100`}>
     <div className="btn-four">
       Virtual Verification
@@ -43,7 +60,7 @@ const BannerOne = () => {
     </div>
   </div>
 
-  <div className="col-lg-4 col-md-6 text-center">
+  <div className="col-lg-4 col-md-6 mb-2 text-center">
     <div className={`${styles.banner__one_bg_content} h-100`}>
     <div className="btn-four">
       Compliance
@@ -55,6 +72,8 @@ const BannerOne = () => {
 </div>
               </div>
             </div>
+            </SwiperSlide>
+            </Swiper>
       </div>
     </>
   );
