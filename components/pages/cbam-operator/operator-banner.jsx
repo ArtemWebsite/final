@@ -17,7 +17,7 @@ const BannerOne = () => {
               <div className="container">
               <div className="row d-flex align-items-stretch">
 
-<div className="col-xl-12 pt-120 text-center">
+<div className="col-xl-12 text-center">
                     <div className={styles.banner__one_content}>
                       <h2 className="text-light pb-30 width-narrow">
                       We Help Operators Globally to Measure and Calculate Emissions
@@ -25,7 +25,7 @@ const BannerOne = () => {
                     </div>
                   </div>
 
-  <div className="col-lg-3 col-md-6 text-center">
+  <div className="col-lg-3 col-md-6 mb-2 text-center">
     <div className={`${styles.banner__one_bg_content} h-100`}>
       <div className="btn-four" >
         Track
@@ -34,7 +34,7 @@ const BannerOne = () => {
     </div>
   </div>
 
-  <div className="col-lg-3 col-md-6 text-center">
+  <div className="col-lg-3 col-md-6 mb-2 text-center">
     <div className={`${styles.banner__one_bg_content} h-100`}>
     <div className="btn-four" >
         Trace
@@ -43,7 +43,7 @@ const BannerOne = () => {
     </div>
   </div>
 
-  <div className="col-lg-3 col-md-6 text-center">
+  <div className="col-lg-3 col-md-6 mb-2 text-center">
     <div className={`${styles.banner__one_bg_content} h-100`}>
     <div className="btn-four" >
         Automate

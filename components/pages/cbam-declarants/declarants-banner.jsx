@@ -34,7 +34,7 @@ const BannerOne = () => {
               />
               <div className="container">
                 <div className="row"> 
-                  <div className="col-xl-12 pt-120 text-center">
+                  <div className="col-xl-12 text-center">
                     <div className={styles.banner__one_content}>
                       <h2 className="text-light pb-30">
                       A Total Solution for CBAM Compliance
@@ -43,7 +43,7 @@ const BannerOne = () => {
                   </div>
 
                   
-                <div className="col-lg-4 col-md-6 text-center"> 
+                <div className="col-lg-4 col-md-6 mb-2 text-center"> 
                 <div className={styles.banner__one_bg_content}>
                         <div className="btn-four">
                           Track
@@ -52,7 +52,7 @@ const BannerOne = () => {
                       </div>
                       </div>
 
-                      <div className="col-lg-4 col-md-6 text-center">
+                      <div className="col-lg-4 col-md-6 mb-2 text-center">
                       <div className={styles.banner__one_bg_content}>
                       <div className="btn-four">
                           Collect
@@ -60,7 +60,7 @@ const BannerOne = () => {
                         <p className="text-capitalize">Collect Real Emission Data from your Suppliers, no matter where they are</p>
                       </div></div>
 
-                      <div className="col-lg-4 col-md-6 text-center">
+                      <div className="col-lg-4 col-md-6 mb-2 text-center">
                       <div className={styles.banner__one_bg_content}>
                       <div className="btn-four">
                           Verify
