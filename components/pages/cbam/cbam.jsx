@@ -43,7 +43,7 @@ const CBAM = () => {
         <div className="pt-120">
           <div className="container">
             <div className="row">
-              <div className="col-lg-4 col-md-6">
+              <div className="col-lg-4 mb-2 col-md-6">
                 <div className="p-4 rounded border shadow d-flex justify-content-between flex-column col-xl-12">
                   <p className="d-flex align-items-center pb-20">
                   <Check/>
@@ -56,7 +56,7 @@ const CBAM = () => {
                 </div>
               </div>
 
-              <div className="col-lg-4 col-md-6">
+              <div className="col-lg-4 mb-2 col-md-6">
                 <div className="p-4 rounded border shadow d-flex justify-content-between flex-column">
                   <p className="d-flex align-items-center">
                   <Check/>
@@ -77,7 +77,7 @@ const CBAM = () => {
                 </div>
               </div>
 
-              <div className="col-lg-4 col-md-6">
+              <div className="col-lg-4 mb-2 col-md-6">
                 <div className="p-4 rounded border shadow d-flex justify-content-between flex-column">
                   <p className="d-flex align-items-center mb-1">
                   <Check/>
