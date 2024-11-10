@@ -574,7 +574,7 @@ h6 {
   transition: 0.4s;
   text-transform: uppercase;
   font-weight: 500;
-  border-radius:0px 0px 15px 15px;
+  border-radius: 0px 0px 15px 15px;
   width: 100%;
   color: #189472;
   justify-content: center;
@@ -3663,10 +3663,10 @@ ul {
   position: absolute;
   top: 50%;
   transform: translateY(-48%);
-  right: -16px;
+  right: -25px;
   font-family: "Font Awesome 5 Pro";
   font-weight: 400;
-  color: var(--text-heading-color);
+  color: var(--text-white);
   transition: 0.3s;
   font-size: 14px;
 }
@@ -3677,7 +3677,7 @@ ul {
   ul
   li.menu-item-has-children:hover
   > a::before {
-  color: var(--primary-color-1);
+  color: var(--text-white);
 }
 .header__area-menubar-center-menu ul li:first-child {
   margin-left: 0;
@@ -10982,60 +10982,60 @@ svg.checkIcon {
   margin-right: 8px;
 }
 @media screen and (min-width: 767px) {
-.p-abs-div {
-  position: absolute;
-  z-index: 3;
-  width: 100%;
-  transform: translate(-50%, -50%);
-  left: 50%;
-  top: 50%;
-}
-.mob-version {
-  display: none;
-}
+  .p-abs-div {
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+  }
+  .mob-version {
+    display: none;
+  }
 }
 @media screen and (max-width: 767px) {
   .width-narrow {
     width: 100%;
-}
-.pb-100 {
-  padding-bottom: 50px;
-}
-.pt-100 {
-  padding-top: 50px;
-}
-.pb-80 {
-  padding-bottom: 40px;
-}
-.pt-80 {
-  padding-top: 30px;
-}
-.main_banner_inner_text {
-  font-size: 1rem;
-  line-height: 1.8rem;
-}
-h4 {
-  font-size: 22px;
-  line-height: 30px;
-}
-.pb-60 {
-  padding-bottom: 30px;
-}
-.pt-60 {
-  padding-top: 30px;
-}
-.mob-version {
-  display: block;
-}
-.desk-version {
-  display:none;
-}
+  }
+  .pb-100 {
+    padding-bottom: 50px;
+  }
+  .pt-100 {
+    padding-top: 50px;
+  }
+  .pb-80 {
+    padding-bottom: 40px;
+  }
+  .pt-80 {
+    padding-top: 30px;
+  }
+  .main_banner_inner_text {
+    font-size: 1rem;
+    line-height: 1.8rem;
+  }
+  h4 {
+    font-size: 22px;
+    line-height: 30px;
+  }
+  .pb-60 {
+    padding-bottom: 30px;
+  }
+  .pt-60 {
+    padding-top: 30px;
+  }
+  .mob-version {
+    display: block;
+  }
+  .desk-version {
+    display: none;
+  }
 }
 body {
   overflow-x: hidden;
 }
 .cems-page .btn-four {
-  border: 1px solid #FFB800;
+  border: 1px solid #ffb800;
 }
 .cems-page h2.text-light.pb-30.width-narrow {
   text-shadow: 1px 1px 2px #626262;
