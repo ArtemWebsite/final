@@ -362,7 +362,7 @@ const FormArea = () => {
           {/* Submit Button */}
           <div className="col-md-12">
             <div className="contact__two-right-form-item">
-              <button className="btn-one" type="submit">
+              <button className="btn-one request-a-demo" type="submit">
                 Submit Now
               </button>
             </div>
