@@ -57,6 +57,7 @@ const BannerOne = () => {
                   </div>
                 </div>
               </div>
+              
             </div>
           </SwiperSlide>
         </Swiper>

@@ -146,7 +146,7 @@ const CbamOperatorMain = () => {
               <div className="col-lg-1 mx-auto mb-4">
                 <img src={icon2.src} alt="icon" style={{width:"60px",height:"auto"}}/>
               </div>
-              <h6>EU Default Calculation Method</h6>
+              <h6>CBAM Emission calculation based on real emission data</h6>
             </div>
 
             <div className="col-lg-5 col-md-6 text-center p-4">

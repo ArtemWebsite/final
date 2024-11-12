@@ -25,8 +25,8 @@ import "./page-style.css";
                 width: '75%' 
               }}
               >
-                <h4 className="timeline-heading" style={{ color: 'orange' }}>1st of January 2025</h4>
-                <p>From 1 January 2026, a reporting Declarant that fails to submit a CBAM report or submits an incorrect or incomplete report, may receive a fine ranging from <strong>€10 to €50 per tonne</strong> of unreported or incorrectly reported emissions.</p>
+                <h4 className="timeline-heading" style={{ color: 'orange' }}>1st of January 2026</h4>
+                <p>From 1 January 2026, a reporting Declarant that fails to submit a CBAM report or submits an incorrect or incomplete report, may receive a fine <strong>of €50 per tonne</strong> of unreported or incorrectly reported emissions.</p>
                 <div className="timeline-pointer"></div>
               </div>
               </div>

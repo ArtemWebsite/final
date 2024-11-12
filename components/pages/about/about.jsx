@@ -107,7 +107,7 @@ const AboutMain = () => {
                         <p>
                           <strong>ARTEM Technologie AG </strong>
                         </p>
-                        <p>Sinserstraße 67 6770 Cham, Zug Switzerland</p>
+                        <p>Sinserstraße 67 6330 Cham, Zug Switzerland</p>
                       </div>
                       <div className="col-lg-2 col-md-6">
                         <img src={f1.src} alt="img-with-text" />

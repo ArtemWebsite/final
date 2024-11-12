@@ -77,7 +77,7 @@ const FooterOne = () => {
                     <br />
                     ARTEM Technologie AG (Switzerland)
                     <br />
-                    Sinserstraße 67, 6770 Cham Zug, Switzerland
+                    Sinserstraße 67, 6330 Cham Zug, Switzerland
                   </p>
                   <div className="social__icon mt-60"></div>
                 </div>
