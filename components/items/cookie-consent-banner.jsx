@@ -5,7 +5,7 @@ const CookieConsent = () => {
   const [showBanner, setShowBanner] = useState(false);
 
   useEffect(() => {
-    // Check if the user has already accepted cookies
+
     const consent = localStorage.getItem('cookieConsent');
     if (!consent) {
       setShowBanner(true);
@@ -34,8 +34,9 @@ const bannerStyles = {
   position: 'fixed',
   bottom: '0',
   width: '100%',
-  backgroundColor: '#333',
-  color: '#fff',
+  backgroundColor: '#8cd2be', 
+  color: '#000',               
+  fontSize: '14px',            
   display: 'flex',
   justifyContent: 'space-between',
   alignItems: 'center',
@@ -48,14 +49,14 @@ const textStyles = {
 };
 
 const linkStyles = {
-  color: '#fff',
+  color: '#000',               
   textDecoration: 'underline',
   marginLeft: '5px',
 };
 
 const buttonStyles = {
   backgroundColor: '#fff',
-  color: '#333',
+  color: '#000',
   border: 'none',
   padding: '0.5rem 1rem',
   cursor: 'pointer',
