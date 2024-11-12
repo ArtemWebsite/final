@@ -5,43 +5,57 @@ const CookieConsent = () => {
   const [showBanner, setShowBanner] = useState(false);
 
   useEffect(() => {
-
+   
     const consent = localStorage.getItem('cookieConsent');
     if (!consent) {
       setShowBanner(true);
+      document.body.style.overflow = 'hidden'; 
     }
   }, []);
 
   const acceptCookies = () => {
     localStorage.setItem('cookieConsent', 'true');
     setShowBanner(false);
+    document.body.style.overflow = 'auto'; 
   };
 
   return (
     showBanner && (
-      <div style={bannerStyles}>
-        <p style={textStyles}>
-          We use cookies to improve your experience on our website. By continuing to browse, you accept our
-          <a href="/privacy-policy" style={linkStyles}>Privacy Policy</a>.
-        </p>
-        <button onClick={acceptCookies} style={buttonStyles}>Accept</button>
+      <div style={overlayStyles}>
+        <div style={bannerStyles}>
+          <p style={textStyles}>
+            We use cookies to improve your experience on our website. By continuing to browse, you accept our
+            <a href="/privacy-policy" style={linkStyles}>Privacy Policy</a>.
+          </p>
+          <button onClick={acceptCookies} style={buttonStyles}>Accept</button>
+        </div>
       </div>
     )
   );
 };
 
-const bannerStyles = {
+const overlayStyles = {
   position: 'fixed',
-  bottom: '0',
+  top: '0',
+  left: '0',
+  width: '100vw',
+  height: '100vh',
+  backgroundColor: 'rgba(0, 0, 0, 0.5)', 
+  display: 'flex',
+  justifyContent: 'center',
+  alignItems: 'flex-end', 
+  zIndex: '1000',
+};
+
+const bannerStyles = {
   width: '100%',
-  backgroundColor: '#8cd2be', 
-  color: '#000',               
-  fontSize: '14px',            
+  backgroundColor: '#8cd2be',
+  color: '#000',
+  fontSize: '14px',
+  padding: '1rem',
   display: 'flex',
   justifyContent: 'space-between',
   alignItems: 'center',
-  padding: '1rem',
-  zIndex: '1000',
 };
 
 const textStyles = {
@@ -49,7 +63,7 @@ const textStyles = {
 };
 
 const linkStyles = {
-  color: '#000',               
+  color: '#000',
   textDecoration: 'underline',
   marginLeft: '5px',
 };
