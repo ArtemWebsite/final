@@ -1,7 +1,6 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectFade, Autoplay, Navigation } from "swiper/modules";
-
-import bannerBg from "../../../../public/assets/img/home/port1.png";
+import bannerBg from "../../../../public/assets/img/shape/shape-3.png";
 import Link from "next/link";
 import styles from "./styles/BannerOne.module.css";
 
@@ -31,11 +30,11 @@ const BannerOne = () => {
                 <source src="/assets/video/green.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
               </video> 
-              {/*<img
+              <img
                 className={styles.banner__one_shape}
                 src={bannerBg.src}
                 alt="banner-shape"
-              />*/}
+              />
               <div className="container">
                 <div className="row">
                   <div className="col-xl-12 pt-120 text-center">
