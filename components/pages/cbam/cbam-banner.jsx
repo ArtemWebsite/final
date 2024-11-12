@@ -26,14 +26,14 @@ const BannerOne = () => {
       <Swiper modules={[EffectFade, Autoplay, Navigation]} {...slideControl}>
       <SwiperSlide>
       <div className={styles.banner__one_image}>
-        {/*<Image
+        <Image
           src={bannerBg}
           alt="banner-shape"
           className={styles.banner__one_shape}
           width={1920} // Adjust width based on your image dimensions
           height={1080} // Adjust height based on your image dimensions
           priority
-        />*/}
+        />
         <div className="container">
           <div className="row d-flex align-items-stretch">
             <div className="col-xl-12 text-center">
