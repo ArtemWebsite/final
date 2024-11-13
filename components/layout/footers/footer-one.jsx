@@ -136,10 +136,7 @@ const FooterOne = () => {
                 <div className="copyright__area-menu t-right lg-t-center lg-mt-5">
                   <ul>
                     <li>
-                      <Link href="#">Privacy & Policy</Link>
-                    </li>
-                    <li>
-                      <Link href="#">Terms and Conditions</Link>
+                      <Link href="#">Privacy Policy</Link>
                     </li>
                   </ul>
                 </div>
