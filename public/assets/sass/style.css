@@ -11044,6 +11044,23 @@ body {
   font-size: 24px;
   text-shadow: 1px 1px 2px #626262;
 }
-.request-a-demo{
-  color:#fff
+.request-a-demo {
+  color: #fff;
+}
+
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+  border-color: inherit;
+  border-style: solid;
+  border-width: 1px;
+  padding: 10px;
+}
+table {
+  caption-side: bottom;
+  border-collapse: collapse;
+  width: 100%;
 }
