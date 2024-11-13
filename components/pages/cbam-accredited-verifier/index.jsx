@@ -13,7 +13,15 @@ import CBAMAccreditedVerifierMain from "./cbam-accredited-verifier";
 const CBAMAccreditedVerifier = () => {
   return (
     <>
-      <SEO pageTitle="CBAM Installation" />
+    <meta
+        name="description"
+        content="ARTeM supports CBAM accredited verifier with streamlined project management tools, simplifying verification processes across diverse loca"
+      />
+      <meta
+        name="keywords"
+        content="CBAM accredited verifier"
+      />
+      <SEO pageTitle="Streamlined Tools for CBAM Accredited Verifier - ARTeM	" />
 
       <HeaderOne />
 

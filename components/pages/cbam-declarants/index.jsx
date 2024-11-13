@@ -10,7 +10,15 @@ import "../homes/home/home.css";
 const CbamDeclarants = () => {
   return (
     <>
-      <SEO pageTitle="CBAM Declarants" />
+    <meta
+        name="description"
+        content="Effortlessly manage CBAM declarant responsibilities with ARTeM's tools for precise carbon emission data reporting, helping you comply with"
+      />
+      <meta
+        name="keywords"
+        content="cbam declarant, carbon emission data"
+      />
+      <SEO pageTitle="CBAM Declarant | Carbon Emission Data - ARTeM" />
 
       <HeaderOne />
       <CbamDeclarantsMain />
