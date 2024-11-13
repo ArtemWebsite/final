@@ -12,7 +12,15 @@ import CbamInstallationMain from "./cbam-installation";
 const CbamInstallation = () => {
   return (
     <>
-      <SEO pageTitle="CBAM Installation" />
+    <meta
+        name="description"
+        content="ARTeM simplifies CBAM installation compliance with tools for accurate carbon data reporting, helping businesses meet EU requirements effi"
+      />
+      <meta
+        name="keywords"
+        content="CBAM Installation"
+      />
+      <SEO pageTitle="CBAM Installation Compliance for Carbon Data Reporting" />
 
       <HeaderOne />
 
