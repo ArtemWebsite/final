@@ -17,23 +17,16 @@ const HeaderOne = () => {
   const [search, setSearch] = useState(false);
   return (
     <>
-     {/* <div className="topBar__one two">
+      <div className="topBar__one two">
         <div className="custom__container">
           <div className="row al-center">
             <div className="col-lg-8 maintopbar">
-              <div className="topBar__one-left lg-t-center">
-                <ul>
-                  <li>
-                    ARTEM Technologie AG Sinserstraße 67, 6770 Cham Zug,
-                    Switzerland
-                  </li>
-                </ul>
-              </div>
-              <LanguageSwitcher/>
+              <div className="topBar__one-left lg-t-center"></div>
+              <LanguageSwitcher />
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
       <div className="header__area bg-theme-blue text-white">
         <div className="custom__container">
           <div className="header__area-menubar">
