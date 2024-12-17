@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import HeaderOne from "@/components/layout/headers/header-one";
 import ScrollToTop from "../common/scroll/scroll-to-top";
 import FooterOne from "@/components/layout/footers/footer-one";
+import UploadImage from "../upload-image";
 
 const BlogController = () => {
   const [formData, setFormData] = useState({
@@ -18,6 +19,10 @@ const BlogController = () => {
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
+  };
+
+  const handleImageUpload = (url) => {
+    setFormData((prevData) => ({ ...prevData, imgUrl: url }));
   };
 
   const handleSubmit = async (e) => {
@@ -137,19 +142,19 @@ const BlogController = () => {
             </div>
           </div>
           <div className="mb-3">
-            <label htmlFor="metaDescription" className="form-label">
-              Image Url
-            </label>
-            <input
-              type="text"
-              id="imgUrl"
-              name="imgUrl"
-              className="form-control"
-              placeholder="Image Url"
-              value={formData.imgUrl}
-              onChange={handleChange}
-            />
+        <label htmlFor="imgUpload" className="form-label">
+          Upload Image
+        </label>
+        <UploadImage onUploadSuccess={handleImageUpload} />
+        {formData.imgUrl && (
+          <div className="mt-2">
+            <p>Uploaded Image URL:</p>
+            <a href={formData.imgUrl} target="_blank" rel="noopener noreferrer">
+              {formData.imgUrl}
+            </a>
           </div>
+        )}
+      </div>
           <div className="mb-4">
             <div className="mb-3">
               <label htmlFor="description" className="form-label">
